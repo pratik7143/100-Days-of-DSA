@@ -8,6 +8,5 @@ struct ListNode* reverseList(struct ListNode* head) {
         prev = current;             
         current = nextNode;         
     }
-
     return prev; 
 }
