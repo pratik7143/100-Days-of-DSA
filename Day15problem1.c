@@ -13,16 +13,13 @@ int main() {
     }
     for(i = 0; i < n; i++) {
         sum += matrix[i][i];
-
-        // Secondary diagonal
-        if(i != n - i - 1)   // Avoid double counting center element
+        if(i != n - i - 1)   
             sum += matrix[i][n - i - 1];
     }
-
     printf("Sum of diagonals = %d\n", sum);
-
     return 0;
 }
+
 
 
 
