@@ -18,7 +18,9 @@ int main() {
         if(head == NULL) {
             head = newnode;  
             temp = newnode;
-        } else {
+        } 
+        else 
+        {
             temp->next = newnode; 
             temp = newnode;       
         }
@@ -32,4 +34,5 @@ int main() {
     printf("NULL\n");
     return 0;
 }
+
 
