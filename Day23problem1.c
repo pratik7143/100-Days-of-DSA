@@ -10,8 +10,6 @@ struct ListNode* createNode(int val) {
     newnode->next = NULL;
     return newnode;
 }
-
-// Insert at end
 void insertEnd(struct ListNode** head, int val) {
     struct ListNode* newnode = createNode(val);
 
@@ -19,7 +17,6 @@ void insertEnd(struct ListNode** head, int val) {
         *head = newnode;
         return;
     }
-
     struct ListNode* temp = *head;
     while (temp->next != NULL)
         temp = temp->next;
@@ -95,3 +92,4 @@ int main() {
     return 0;
 
 }
+
