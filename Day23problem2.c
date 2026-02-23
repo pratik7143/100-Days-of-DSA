@@ -9,6 +9,5 @@ bool hasCycle(struct ListNode *head) {
         if (slow == fast)            
             return true;
     }
-
     return false;   
 }
