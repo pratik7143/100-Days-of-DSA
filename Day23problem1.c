@@ -1,12 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 struct ListNode {
     int val;
     struct ListNode *next;
 };
-
-// Function to create a new node
 struct ListNode* createNode(int val) {
     struct ListNode* newnode = (struct ListNode*)malloc(sizeof(struct ListNode));
     newnode->val = val;
@@ -96,4 +93,5 @@ int main() {
     printList(merged);
 
     return 0;
+
 }
