@@ -21,13 +21,10 @@ void insertEnd(struct ListNode** head, int val) {
         temp = temp->next;
     temp->next = newnode;
 }
-
-// Merge two sorted lists
 struct ListNode* mergeTwoLists(struct ListNode* list1, struct ListNode* list2) {
     struct ListNode dummy;
     dummy.next = NULL;
     struct ListNode* tail = &dummy;
-
     while (list1 != NULL && list2 != NULL) {
         if (list1->val < list2->val) {
             tail->next = list1;
@@ -38,14 +35,9 @@ struct ListNode* mergeTwoLists(struct ListNode* list1, struct ListNode* list2) {
         }
         tail = tail->next;
     }
-
-    // Attach remaining part
     tail->next = (list1 != NULL) ? list1 : list2;
-
     return dummy.next;
 }
-
-// Print list
 void printList(struct ListNode* head) {
     while (head != NULL) {
         printf("%d -> ", head->val);
@@ -67,7 +59,6 @@ int main() {
         scanf("%d", &val);
         insertEnd(&list1, val);
     }
-
     printf("Enter number of elements in List 2: ");
     scanf("%d", &n2);
     printf("Enter elements (sorted): ");
@@ -75,20 +66,16 @@ int main() {
         scanf("%d", &val);
         insertEnd(&list2, val);
     }
-
     printf("\nList 1: ");
     printList(list1);
-
     printf("List 2: ");
     printList(list2);
-
     struct ListNode* merged = mergeTwoLists(list1, list2);
-
     printf("\nMerged List: ");
     printList(merged);
-
     return 0;
 
 }
+
 
 
