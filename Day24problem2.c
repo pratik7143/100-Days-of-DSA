@@ -1,5 +1,4 @@
 struct ListNode* removeElements(struct ListNode* head, int val) {
-    // Remove leading nodes with target value
     while (head != NULL && head->val == val) {
         struct ListNode* temp = head;
         head = head->next;
