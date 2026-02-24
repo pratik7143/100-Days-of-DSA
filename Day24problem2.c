@@ -11,7 +11,8 @@ struct ListNode* removeElements(struct ListNode* head, int val) {
             struct ListNode* temp = curr->next;
             curr->next = curr->next->next;
             free(temp);
-        } else 
+        } 
+        else 
         {
             curr = curr->next;
         }
