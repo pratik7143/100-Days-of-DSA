@@ -5,7 +5,6 @@ struct ListNode* removeElements(struct ListNode* head, int val) {
         free(temp);
     }
     if (head == NULL) return head;
-
     struct ListNode* curr = head;
     while (curr->next != NULL) {
         if (curr->next->val == val) {
