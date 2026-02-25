@@ -10,7 +10,6 @@ struct ListNode* createNode(int x) {
     temp->next = NULL;
     return temp;
 }
-
 int countOccurrences(struct ListNode* head, int key) {
     int count = 0;
     while (head != NULL) {
@@ -37,3 +36,4 @@ int main() {
     return 0;
 
 }
+
