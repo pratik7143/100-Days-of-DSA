@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 struct ListNode {
     int val;
     struct ListNode *next;
 };
-
 struct ListNode* createNode(int x) {
     struct ListNode* temp = (struct ListNode*)malloc(sizeof(struct ListNode));
     temp->val = x;
@@ -37,4 +35,5 @@ int main() {
     printf("Occurrences of %d = %d", key, countOccurrences(head, key));
     
     return 0;
+
 }
