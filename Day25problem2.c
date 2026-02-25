@@ -13,6 +13,5 @@ struct ListNode *detectCycle(struct ListNode *head) {
         slow = slow->next;
         fast = fast->next;
     }
-
     return slow; 
 }
