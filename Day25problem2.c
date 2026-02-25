@@ -6,7 +6,6 @@ struct ListNode *detectCycle(struct ListNode *head) {
         if (slow == fast)  
             break;
     }
-
     if (fast == NULL || fast->next == NULL)
         return NULL;
 
