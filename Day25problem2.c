@@ -8,7 +8,6 @@ struct ListNode *detectCycle(struct ListNode *head) {
     }
     if (fast == NULL || fast->next == NULL)
         return NULL;
-
     slow = head;
     while (slow != fast) {
         slow = slow->next;
