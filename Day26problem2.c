@@ -15,7 +15,6 @@ MyLinkedList* myLinkedListCreate() {
     obj->size = 0;
     return obj;
 }
-
 Node* newNode(int val) {
     Node* n = malloc(sizeof(Node));
     n->val = val;
