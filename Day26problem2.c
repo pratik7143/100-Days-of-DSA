@@ -21,7 +21,6 @@ Node* newNode(int val) {
     n->prev = n->next = NULL;
     return n;
 }
-
 int myLinkedListGet(MyLinkedList* obj, int index) {
     if(index < 0 || index >= obj->size) return -1;
 
