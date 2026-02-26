@@ -23,7 +23,6 @@ Node* newNode(int val) {
 }
 int myLinkedListGet(MyLinkedList* obj, int index) {
     if(index < 0 || index >= obj->size) return -1;
-
     Node* cur;
     if(index < obj->size / 2) {
         cur = obj->head;
