@@ -4,7 +4,6 @@ typedef struct Node {
     int val;
     struct Node *prev, *next;
 } Node;
-
 typedef struct {
     Node *head;
     Node *tail;
