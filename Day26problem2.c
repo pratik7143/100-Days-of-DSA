@@ -9,7 +9,6 @@ typedef struct {
     Node *tail;
     int size;
 } MyLinkedList;
-
 MyLinkedList* myLinkedListCreate() {
     MyLinkedList* obj = malloc(sizeof(MyLinkedList));
     obj->head = obj->tail = NULL;
