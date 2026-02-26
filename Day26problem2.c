@@ -43,7 +43,6 @@ void myLinkedListAddAtHead(MyLinkedList* obj, int val) {
     if(obj->size == 0) obj->tail = n;
     obj->size++;
 }
-
 void myLinkedListAddAtTail(MyLinkedList* obj, int val) {
     Node* n = newNode(val);
     n->prev = obj->tail;
