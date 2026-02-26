@@ -34,7 +34,6 @@ int myLinkedListGet(MyLinkedList* obj, int index) {
     }
     return cur->val;
 }
-
 void myLinkedListAddAtHead(MyLinkedList* obj, int val) {
     Node* n = newNode(val);
     n->next = obj->head;
