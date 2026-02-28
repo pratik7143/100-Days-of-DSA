@@ -14,7 +14,6 @@ public:
             return;
         slow = head;
         if (slow == fast) {
-            // Special case: loop starting at head
             while (fast->next != slow)
                 fast = fast->next;
         } else {
