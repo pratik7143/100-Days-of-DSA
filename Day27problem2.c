@@ -4,8 +4,6 @@ public:
         if (head == NULL || head->next == NULL)
             return;
         Node *slow = head, *fast = head;
-
-        // Step 1: Detect loop
         while (fast != NULL && fast->next != NULL) {
             slow = slow->next;
             fast = fast->next->next;
