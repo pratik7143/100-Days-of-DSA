@@ -12,8 +12,6 @@ public:
         }
         if (fast == NULL || fast->next == NULL)
             return;
-
-        // Step 2: Find start of loop
         slow = head;
         if (slow == fast) {
             // Special case: loop starting at head
