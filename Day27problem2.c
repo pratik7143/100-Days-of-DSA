@@ -10,8 +10,6 @@ public:
             if (slow == fast)
                 break;
         }
-
-        // No loop
         if (fast == NULL || fast->next == NULL)
             return;
 
