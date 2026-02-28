@@ -3,7 +3,6 @@ public:
     void removeLoop(Node* head) {
         if (head == NULL || head->next == NULL)
             return;
-
         Node *slow = head, *fast = head;
 
         // Step 1: Detect loop
