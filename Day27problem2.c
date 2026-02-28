@@ -22,8 +22,6 @@ public:
                 fast = fast->next;
             }
         }
-
-        // Step 3: Break the loop
         fast->next = NULL;
     }
 };
