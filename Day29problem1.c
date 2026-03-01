@@ -26,11 +26,8 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
         newNode->val = sum % 10; // Get the digit to store (0-9)
         newNode->next = NULL;
         
-        // Append it to our result list and move the 'curr' pointer forward
         curr->next = newNode;
         curr = curr->next;
     }
-    
-    // The head of the resulting numeric list is the node after the dummy
     return dummy.next;
 }
