@@ -1,11 +1,4 @@
-#include <stdlib.h> // For malloc
-
-// Definition for singly-linked list is already provided in your problem statement
-// struct ListNode {
-//     int val;
-//     struct ListNode *next;
-// };
-
+#include <stdlib.h> 
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     // We create a dummy node on the stack. The actual result list will
     // start at dummy.next. This simplifies the creation of the list head.
