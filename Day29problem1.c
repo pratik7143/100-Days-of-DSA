@@ -16,8 +16,6 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
             sum += l1->val;
             l1 = l1->next;
         }
-        
-        // Add l2's value if it's available
         if (l2 != NULL) {
             sum += l2->val;
             l2 = l2->next;
