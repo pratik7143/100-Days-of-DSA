@@ -2,8 +2,6 @@
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     struct ListNode dummy; 
     dummy.next = NULL;
-    
-    // 'curr' pointer is used to build the new list
     struct ListNode* curr = &dummy;
     
     int carry = 0;
