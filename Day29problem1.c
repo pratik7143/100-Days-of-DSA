@@ -5,9 +5,6 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     struct ListNode* curr = &dummy;
     
     int carry = 0;
-    
-    // Loop continues as long as there are digits left in l1 or l2, 
-    // OR if there is a leftover carry that needs to be added as a new node.
     while (l1 != NULL || l2 != NULL || carry != 0) {
         int sum = carry;
         
