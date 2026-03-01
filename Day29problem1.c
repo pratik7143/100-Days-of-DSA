@@ -1,7 +1,5 @@
 #include <stdlib.h> 
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
-    // We create a dummy node on the stack. The actual result list will
-    // start at dummy.next. This simplifies the creation of the list head.
     struct ListNode dummy; 
     dummy.next = NULL;
     
