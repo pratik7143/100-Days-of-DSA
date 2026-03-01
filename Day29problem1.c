@@ -15,8 +15,6 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
             sum += l2->val;
             l2 = l2->next;
         }
-        
-        // Calculate the new carry for the next decimal place (could be 1 or 0)
         carry = sum / 10;
         
         // Allocate a new node for the resulted digit
