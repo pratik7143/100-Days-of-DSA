@@ -7,8 +7,6 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     int carry = 0;
     while (l1 != NULL || l2 != NULL || carry != 0) {
         int sum = carry;
-        
-        // Add l1's value if it's available
         if (l1 != NULL) {
             sum += l1->val;
             l1 = l1->next;
