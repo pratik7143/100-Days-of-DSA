@@ -5,7 +5,6 @@
  *     struct ListNode *next;
  * };
  */
-
 struct ListNode* reverse(struct ListNode* head) {
     struct ListNode* prev = NULL;
     while (head) {
