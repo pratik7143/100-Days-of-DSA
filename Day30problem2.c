@@ -21,7 +21,6 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     l2 = reverse(l2);
     struct ListNode* result = NULL;
     int carry = 0;
-
     // Step 2: Add normally
     while (l1 || l2 || carry) {
         int sum = carry;
