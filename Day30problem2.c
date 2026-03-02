@@ -39,7 +39,6 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
         node->next = result;
         result = node;
     }
-
     // Step 3: Reverse result to restore correct MSD-first format
     return result;
 }
