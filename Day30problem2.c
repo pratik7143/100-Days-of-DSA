@@ -15,7 +15,6 @@ struct ListNode* reverse(struct ListNode* head) {
     }
     return prev;
 }
-
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     // Step 1: Reverse both lists
     l1 = reverse(l1);
