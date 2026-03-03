@@ -14,7 +14,6 @@ bool isValid(char* s) {
             stack[++top] = c;
         } 
         else { 
-        
             if (top == -1) {
                 free(stack);
                 return false;
