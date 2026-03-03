@@ -14,7 +14,7 @@ bool isValid(char* s) {
             stack[++top] = c;
         } 
         else { 
-            // Closing bracket but stack is empty → invalid
+        
             if (top == -1) {
                 free(stack);
                 return false;
