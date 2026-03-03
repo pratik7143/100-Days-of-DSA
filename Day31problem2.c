@@ -6,7 +6,6 @@ bool isValid(char* s) {
     if (n % 2 == 1) return false;  
     char *stack = (char*)malloc(n);
     int top = -1;
-
     for (int i = 0; i < n; i++) {
         char c = s[i];
 
