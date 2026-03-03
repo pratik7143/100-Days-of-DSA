@@ -25,7 +25,6 @@ bool isValid(char* s) {
             }
         }
     }
-
     bool valid = (top == -1);
     free(stack);
     return valid;
