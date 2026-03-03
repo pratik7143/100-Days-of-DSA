@@ -1,7 +1,6 @@
 #include <stdbool.h>
 #include <string.h>
 #include <stdlib.h>
-
 bool isValid(char* s) {
     int n = strlen(s);
     if (n % 2 == 1) return false;  // odd length can't be valid
