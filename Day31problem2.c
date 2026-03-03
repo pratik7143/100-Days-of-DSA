@@ -8,8 +8,6 @@ bool isValid(char* s) {
     int top = -1;
     for (int i = 0; i < n; i++) {
         char c = s[i];
-
-        // Push opening brackets
         if (c == '(' || c == '{' || c == '[') {
             stack[++top] = c;
         } 
