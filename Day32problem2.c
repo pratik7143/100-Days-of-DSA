@@ -22,7 +22,6 @@ void minStackPush(MinStack* obj, int val) {
         obj->minStack[obj->top] = val < obj->minStack[obj->top - 1] ? val : obj->minStack[obj->top - 1];
     }
 }
-
 void minStackPop(MinStack* obj) {
     if (obj->top >= 0) {
         obj->top--;
