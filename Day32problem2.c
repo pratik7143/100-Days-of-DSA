@@ -16,7 +16,6 @@ MinStack* minStackCreate() {
 void minStackPush(MinStack* obj, int val) {
     obj->top++;
     obj->stack[obj->top] = val;
-
     if (obj->top == 0) {
         obj->minStack[obj->top] = val;
     } else {
