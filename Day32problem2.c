@@ -31,7 +31,6 @@ void minStackPop(MinStack* obj) {
 int minStackTop(MinStack* obj) {
     return obj->stack[obj->top];
 }
-
 int minStackGetMin(MinStack* obj) {
     return obj->minStack[obj->top];
 }
