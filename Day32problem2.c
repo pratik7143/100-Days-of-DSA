@@ -27,7 +27,6 @@ void minStackPop(MinStack* obj) {
         obj->top--;
     }
 }
-
 int minStackTop(MinStack* obj) {
     return obj->stack[obj->top];
 }
