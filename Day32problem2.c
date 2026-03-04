@@ -5,7 +5,6 @@ typedef struct {
     int top;
     int capacity;
 } MinStack;
-
 MinStack* minStackCreate() {
     MinStack* obj = (MinStack*)malloc(sizeof(MinStack));
     obj->capacity = 10000;
