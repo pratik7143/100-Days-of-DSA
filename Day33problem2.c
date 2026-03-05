@@ -4,7 +4,6 @@
 int evalRPN(char** tokens, int tokensSize) {
     int stack[tokensSize];
     int top = -1;
-
     for(int i = 0; i < tokensSize; i++) {
 
         if(strcmp(tokens[i], "+") == 0) {
