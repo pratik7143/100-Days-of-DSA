@@ -29,6 +29,5 @@ int evalRPN(char** tokens, int tokensSize) {
             stack[++top] = atoi(tokens[i]);
         }
     }
-
     return stack[top];
 }
