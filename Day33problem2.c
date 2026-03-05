@@ -11,7 +11,8 @@ int evalRPN(char** tokens, int tokensSize)
             int a = stack[top--];
             stack[++top] = a + b;
         }
-        else if(strcmp(tokens[i], "-") == 0) {
+        else if(strcmp(tokens[i], "-") == 0) 
+        {
             int b = stack[top--];
             int a = stack[top--];
             stack[++top] = a - b;
