@@ -1,5 +1,6 @@
 #include <ctype.h>
-int calculate(char* s) {
+int calculate(char* s) 
+{
     long result = 0;
     long lastNum = 0;
     long num = 0;
