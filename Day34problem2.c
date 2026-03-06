@@ -9,7 +9,6 @@ int calculate(char* s) {
             num = num * 10 + (s[i] - '0');
         }
         if ((!isdigit(s[i]) && s[i] != ' ') || s[i+1] == '\0') {
-
             if (op == '+') {
                 result += lastNum;
                 lastNum = num;
