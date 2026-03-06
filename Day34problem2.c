@@ -5,7 +5,6 @@ int calculate(char* s) {
     long num = 0;
     char op = '+';
     for (int i = 0; s[i] != '\0'; i++) {
-        
         if (isdigit(s[i])) {
             num = num * 10 + (s[i] - '0');
         }
