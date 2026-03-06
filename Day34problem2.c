@@ -27,6 +27,5 @@ int calculate(char* s) {
             num = 0;
         }
     }
-
     return result + lastNum;
 }
