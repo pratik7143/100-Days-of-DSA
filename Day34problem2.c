@@ -23,7 +23,6 @@ int calculate(char* s) {
             else if (op == '/') {
                 lastNum = lastNum / num;
             }
-
             op = s[i];
             num = 0;
         }
