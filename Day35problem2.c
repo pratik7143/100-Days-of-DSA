@@ -6,7 +6,8 @@ typedef struct {
     int topIn;
     int topOut;
 } MyQueue;
-MyQueue* myQueueCreate() {
+MyQueue* myQueueCreate() 
+{
     MyQueue* obj = (MyQueue*)malloc(sizeof(MyQueue));
     obj->topIn = -1;
     obj->topOut = -1;
