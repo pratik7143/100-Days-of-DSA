@@ -15,7 +15,6 @@ MyQueue* myQueueCreate() {
 void myQueuePush(MyQueue* obj, int x) {
     obj->in[++obj->topIn] = x;
 }
-
 int myQueuePop(MyQueue* obj) {
 
     if(obj->topOut == -1){
