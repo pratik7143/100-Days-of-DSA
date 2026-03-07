@@ -24,7 +24,6 @@ int myQueuePop(MyQueue* obj) {
 
     return obj->out[obj->topOut--];
 }
-
 int myQueuePeek(MyQueue* obj) {
 
     if(obj->topOut == -1){
