@@ -29,7 +29,6 @@ int myQueuePeek(MyQueue* obj) {
             obj->out[++obj->topOut] = obj->in[obj->topIn--];
         }
     }
-
     return obj->out[obj->topOut];
 }
 
