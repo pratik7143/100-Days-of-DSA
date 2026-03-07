@@ -34,7 +34,6 @@ int myQueuePeek(MyQueue* obj) {
 bool myQueueEmpty(MyQueue* obj) {
     return obj->topIn == -1 && obj->topOut == -1;
 }
-
 void myQueueFree(MyQueue* obj) {
     free(obj);
 }
