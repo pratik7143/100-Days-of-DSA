@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <stdbool.h>
-
 typedef struct {
     int in[100];
     int out[100];
