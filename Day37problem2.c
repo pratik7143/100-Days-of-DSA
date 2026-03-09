@@ -18,7 +18,6 @@ void heapifyUp(KthLargest* obj, int i){
         } else break;
     }
 }
-
 void heapifyDown(KthLargest* obj, int i){
     while(1){
         int smallest = i;
