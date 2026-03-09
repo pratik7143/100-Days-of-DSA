@@ -17,7 +17,6 @@ MyCircularDeque* myCircularDequeCreate(int k) {
     obj->size = 0;
     return obj;
 }
-
 bool myCircularDequeInsertFront(MyCircularDeque* obj, int value) {
     if (obj->size == obj->capacity)
         return false;
