@@ -9,7 +9,6 @@ void swap(int *a, int *b){
     *a = *b;
     *b = t;
 }
-
 void heapifyUp(KthLargest* obj, int i){
     while(i > 0){
         int parent = (i - 1) / 2;
