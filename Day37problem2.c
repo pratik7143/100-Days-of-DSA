@@ -23,7 +23,6 @@ void heapifyDown(KthLargest* obj, int i){
         int smallest = i;
         int left = 2*i + 1;
         int right = 2*i + 2;
-
         if(left < obj->size && obj->heap[left] < obj->heap[smallest])
             smallest = left;
         if(right < obj->size && obj->heap[right] < obj->heap[smallest])
