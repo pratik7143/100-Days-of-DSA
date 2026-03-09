@@ -39,7 +39,6 @@ void insert(KthLargest* obj, int val){
     obj->size++;
     heapifyUp(obj, obj->size - 1);
 }
-
 KthLargest* kthLargestCreate(int k, int* nums, int numsSize) {
     KthLargest* obj = (KthLargest*)malloc(sizeof(KthLargest));
     obj->heap = (int*)malloc(sizeof(int) * k);
