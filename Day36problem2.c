@@ -20,11 +20,9 @@ MyCircularDeque* myCircularDequeCreate(int k) {
 bool myCircularDequeInsertFront(MyCircularDeque* obj, int value) {
     if (obj->size == obj->capacity)
         return false;
-
     obj->front = (obj->front - 1 + obj->capacity) % obj->capacity;
     obj->arr[obj->front] = value;
     obj->size++;
-
     if (obj->size == 1)
         obj->rear = obj->front;
 
@@ -75,7 +73,6 @@ int myCircularDequeGetRear(MyCircularDeque* obj) {
 
     return obj->arr[obj->rear];
 }
-
 bool myCircularDequeIsEmpty(MyCircularDeque* obj) {
     return obj->size == 0;
 }
