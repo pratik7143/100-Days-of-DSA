@@ -5,7 +5,6 @@ typedef struct {
     int size;
     int k;
 } KthLargest;
-
 void swap(int *a, int *b){
     int t = *a;
     *a = *b;
