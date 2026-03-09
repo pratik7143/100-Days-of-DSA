@@ -12,7 +12,8 @@ int main() {
     }
     printf("Enter elements of Matrix B:\n");
     for(int i = 0; i < r; i++) {
-        for(int j = 0; j < c; j++) {
+        for(int j = 0; j < c; j++) 
+        {
             scanf("%d", &b[i][j]);
         }
     }
@@ -30,5 +31,6 @@ int main() {
     }
     return 0;
 }
+
 
 
