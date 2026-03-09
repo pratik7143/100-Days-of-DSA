@@ -9,7 +9,6 @@ typedef struct {
     int capacity;
 } MyCircularDeque;
 
-
 MyCircularDeque* myCircularDequeCreate(int k) {
     MyCircularDeque* obj = (MyCircularDeque*)malloc(sizeof(MyCircularDeque));
     obj->capacity = k;
