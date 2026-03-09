@@ -34,7 +34,6 @@ void heapifyDown(KthLargest* obj, int i){
         } else break;
     }
 }
-
 void insert(KthLargest* obj, int val){
     obj->heap[obj->size] = val;
     obj->size++;
