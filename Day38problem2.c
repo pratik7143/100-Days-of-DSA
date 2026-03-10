@@ -19,9 +19,7 @@ int* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize) {
         if(i >= k - 1)
             result[idx++] = nums[deque[front]];
     }
-    
     *returnSize = numsSize - k + 1;
-    
     free(deque);
     return result;
 }
