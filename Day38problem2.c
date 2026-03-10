@@ -4,7 +4,6 @@ int* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize) {
     int *deque = (int*)malloc(numsSize * sizeof(int)); // store indices
     int front = 0, rear = -1;
     int idx = 0;
-    
     for(int i = 0; i < numsSize; i++)
     {
         // Remove elements outside window
