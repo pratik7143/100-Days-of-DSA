@@ -7,8 +7,6 @@ int maxSubarraySumCircular(int* nums, int numsSize) {
     for (int i = 0; i < numsSize; i++) {
         int x = nums[i];
         totalSum += x;
-
-        // Kadane for max subarray
         currentMax = (currentMax + x > x) ? currentMax + x : x;
         maxSum = (maxSum > currentMax) ? maxSum : currentMax;
 
