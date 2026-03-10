@@ -4,7 +4,6 @@ int maxSubarraySumCircular(int* nums, int numsSize) {
     int totalSum = 0;
     int maxSum = INT_MIN, currentMax = 0;
     int minSum = INT_MAX, currentMin = 0;
-
     for (int i = 0; i < numsSize; i++) {
         int x = nums[i];
         totalSum += x;
