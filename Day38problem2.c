@@ -6,7 +6,6 @@ int* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize) {
     int idx = 0;
     for(int i = 0; i < numsSize; i++)
     {
-        // Remove elements outside window
         if(front <= rear && deque[front] <= i - k)
             front++;
         // Remove smaller elements from rear
