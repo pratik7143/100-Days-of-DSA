@@ -2,7 +2,6 @@
 int* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize) {
     int *result = (int*)malloc((numsSize - k + 1) * sizeof(int));
     int *deque = (int*)malloc(numsSize * sizeof(int)); // store indices
-    
     int front = 0, rear = -1;
     int idx = 0;
     
