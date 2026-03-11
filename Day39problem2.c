@@ -14,7 +14,6 @@ int* topKFrequent(int* nums, int numsSize, int k, int* returnSize)
 {
     Pair arr[numsSize];
     int size = 0;
-
     for(int i = 0; i < numsSize; i++)
     {
         int found = 0;
