@@ -17,7 +17,6 @@ int* topKFrequent(int* nums, int numsSize, int k, int* returnSize)
     for(int i = 0; i < numsSize; i++)
     {
         int found = 0;
-
         for(int j = 0; j < size; j++)
         {
             if(arr[j].val == nums[i])
