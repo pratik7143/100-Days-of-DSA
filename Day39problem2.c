@@ -10,7 +10,6 @@ int cmp(const void *a, const void *b)
     Pair *p2 = (Pair*)b;
     return p2->freq - p1->freq;
 }
-
 int* topKFrequent(int* nums, int numsSize, int k, int* returnSize) 
 {
     Pair arr[numsSize];
