@@ -35,7 +35,6 @@ int* topKFrequent(int* nums, int numsSize, int k, int* returnSize)
     }
 
     qsort(arr, size, sizeof(Pair), cmp);
-
     int *res = malloc(k * sizeof(int));
 
     for(int i = 0; i < k; i++)
