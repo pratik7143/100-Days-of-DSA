@@ -26,7 +26,6 @@ int* topKFrequent(int* nums, int numsSize, int k, int* returnSize)
                 break;
             }
         }
-
         if(!found)
         {
             arr[size].val = nums[i];
