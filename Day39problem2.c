@@ -3,7 +3,6 @@ typedef struct {
     int val;
     int freq;
 } Pair;
-
 int cmp(const void *a, const void *b)
 {
     Pair *p1 = (Pair*)a;
