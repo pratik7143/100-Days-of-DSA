@@ -1,5 +1,4 @@
 #include <stdlib.h>
-
 typedef struct {
     int val;
     int freq;
