@@ -1,6 +1,5 @@
 #include <stdlib.h>
 int* dailyTemperatures(int* temperatures, int temperaturesSize, int* returnSize) {
-    
     int* result = (int*)calloc(temperaturesSize, sizeof(int));
     int* stack = (int*)malloc(sizeof(int) * temperaturesSize);
     
