@@ -10,7 +10,6 @@ int* dailyTemperatures(int* temperatures, int temperaturesSize, int* returnSize)
             int idx = stack[top--];
             result[idx] = i - idx;
         }
-        
         stack[++top] = i;
     }
     free(stack);
