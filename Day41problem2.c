@@ -1,6 +1,5 @@
 int leastInterval(char* tasks, int tasksSize, int n) {
     int freq[26] = {0};
-    
     for(int i = 0; i < tasksSize; i++){
         freq[tasks[i] - 'A']++;
     }
