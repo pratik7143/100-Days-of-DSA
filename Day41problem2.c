@@ -14,6 +14,5 @@ int leastInterval(char* tasks, int tasksSize, int n) {
             maxCount++;
     }
     int intervals = (maxFreq - 1) * (n + 1) + maxCount;
-    
     return tasksSize > intervals ? tasksSize : intervals;
 }
