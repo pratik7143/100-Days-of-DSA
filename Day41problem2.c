@@ -4,7 +4,6 @@ int leastInterval(char* tasks, int tasksSize, int n) {
         freq[tasks[i] - 'A']++;
     }
     
-    // find max frequency
     int maxFreq = 0;
     for(int i = 0; i < 26; i++){
         if(freq[i] > maxFreq)
