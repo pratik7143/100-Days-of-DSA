@@ -14,7 +14,6 @@ void maxPush(MedianFinder* obj, int val){
         int t=obj->maxHeap[p];
         obj->maxHeap[p]=obj->maxHeap[i];
         obj->maxHeap[i]=t;
-
         i=p;
     }
 }
