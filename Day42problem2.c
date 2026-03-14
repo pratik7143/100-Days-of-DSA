@@ -31,7 +31,6 @@ int maxPop(MedianFinder* obj){
         int t=obj->maxHeap[i];
         obj->maxHeap[i]=obj->maxHeap[largest];
         obj->maxHeap[largest]=t;
-
         i=largest;
     }
 
