@@ -11,7 +11,6 @@ void maxPush(MedianFinder* obj, int val){
     while(i>0){
         int p=(i-1)/2;
         if(obj->maxHeap[p] >= obj->maxHeap[i]) break;
-
         int t=obj->maxHeap[p];
         obj->maxHeap[p]=obj->maxHeap[i];
         obj->maxHeap[i]=t;
