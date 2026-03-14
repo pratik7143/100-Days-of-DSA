@@ -1,5 +1,4 @@
 #include <stdlib.h>
-
 typedef struct {
     int maxHeap[50000];
     int minHeap[50000];
