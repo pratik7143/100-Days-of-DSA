@@ -6,8 +6,6 @@ typedef struct {
     int minSize;
 } MedianFinder;
 
-/* ---------- MAX HEAP ---------- */
-
 void maxPush(MedianFinder* obj, int val){
     int i = obj->maxSize++;
     obj->maxHeap[i] = val;
