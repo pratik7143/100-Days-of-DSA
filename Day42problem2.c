@@ -22,7 +22,6 @@ void maxPush(MedianFinder* obj, int val){
 int maxPop(MedianFinder* obj){
     int top=obj->maxHeap[0];
     obj->maxHeap[0]=obj->maxHeap[--obj->maxSize];
-
     int i=0;
     while(1){
         int l=2*i+1,r=2*i+2,largest=i;
