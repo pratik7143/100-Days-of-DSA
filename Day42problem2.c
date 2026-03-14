@@ -8,7 +8,6 @@ typedef struct {
 void maxPush(MedianFinder* obj, int val){
     int i = obj->maxSize++;
     obj->maxHeap[i] = val;
-
     while(i>0){
         int p=(i-1)/2;
         if(obj->maxHeap[p] >= obj->maxHeap[i]) break;
