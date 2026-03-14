@@ -23,7 +23,6 @@ int maxPop(MedianFinder* obj){
     int i=0;
     while(1){
         int l=2*i+1,r=2*i+2,largest=i;
-
         if(l<obj->maxSize && obj->maxHeap[l]>obj->maxHeap[largest]) largest=l;
         if(r<obj->maxSize && obj->maxHeap[r]>obj->maxHeap[largest]) largest=r;
 
