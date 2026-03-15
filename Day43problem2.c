@@ -6,7 +6,6 @@
  *     struct TreeNode *right;
  * };
  */
-
 void inorder(struct TreeNode* root, int* arr, int* index){
     if(root == NULL)
         return;
