@@ -9,7 +9,6 @@
 void inorder(struct TreeNode* root, int* arr, int* index){
     if(root == NULL)
         return;
-
     inorder(root->left, arr, index);   // Left
     arr[(*index)++] = root->val;       // Root
     inorder(root->right, arr, index);  // Right
