@@ -14,7 +14,8 @@ void inorder(struct TreeNode* root, int* arr, int* index)
     arr[(*index)++] = root->val;       // Root
     inorder(root->right, arr, index);  // Right
 }
-int* inorderTraversal(struct TreeNode* root, int* returnSize) {
+int* inorderTraversal(struct TreeNode* root, int* returnSize) 
+{
     int* arr = (int*)malloc(100 * sizeof(int)); // allocate memory
     int index = 0;
     inorder(root, arr, &index);
