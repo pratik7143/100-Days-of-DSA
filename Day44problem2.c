@@ -14,7 +14,6 @@ void preorder(struct TreeNode* root, int* arr, int* index) {
     preorder(root->right, arr, index);
 }
 int* preorderTraversal(struct TreeNode* root, int* returnSize) {
-    
     int* arr = (int*)malloc(100 * sizeof(int));  // max nodes constraint
     int index = 0;
 
