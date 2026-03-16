@@ -8,7 +8,6 @@
  */
 void preorder(struct TreeNode* root, int* arr, int* index) {
     if (root == NULL) return;
-
     arr[*index] = root->val;
     (*index)++;
 
