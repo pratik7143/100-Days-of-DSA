@@ -6,7 +6,6 @@
  *     struct TreeNode *right;
  * };
  */
-
 void preorder(struct TreeNode* root, int* arr, int* index) {
     if (root == NULL) return;
 
