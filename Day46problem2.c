@@ -31,7 +31,8 @@ int isEmpty(struct Queue* q) {
     return q->size == 0;
 }
 int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes) {
-    if (!root) {
+    if (!root)
+    {
         *returnSize = 0;
         *returnColumnSizes = NULL;
         return NULL;
