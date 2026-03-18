@@ -19,7 +19,8 @@ struct Queue* createQueue(int capacity) {
     q->size = 0;
     return q;
 }
-void enqueue(struct Queue* q, struct TreeNode* node) {
+void enqueue(struct Queue* q, struct TreeNode* node)
+{
     q->arr[q->rear++] = node;
     q->size++;
 }
