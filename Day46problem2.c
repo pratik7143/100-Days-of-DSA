@@ -8,7 +8,6 @@
  *     struct TreeNode *right;
  * };
  */
-
 // Queue implementation
 struct Queue {
     struct TreeNode** arr;
