@@ -38,7 +38,6 @@ int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes
         *returnColumnSizes = NULL;
         return NULL;
     }
-
     int capacity = 2000;  // safe size for constraints
     int** result = (int**)malloc(sizeof(int*) * capacity);
     *returnColumnSizes = (int*)malloc(sizeof(int) * capacity);
