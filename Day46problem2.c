@@ -32,7 +32,6 @@ struct TreeNode* dequeue(struct Queue* q) {
 int isEmpty(struct Queue* q) {
     return q->size == 0;
 }
-
 int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes) {
     if (!root) {
         *returnSize = 0;
