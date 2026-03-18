@@ -29,7 +29,6 @@ struct TreeNode* dequeue(struct Queue* q) {
     q->size--;
     return q->arr[q->front++];
 }
-
 int isEmpty(struct Queue* q) {
     return q->size == 0;
 }
