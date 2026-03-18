@@ -59,7 +59,6 @@ int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes
 
         levelCount++;
     }
-
     *returnSize = levelCount;
     return result;
 }
