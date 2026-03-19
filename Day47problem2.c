@@ -13,6 +13,5 @@ int maxDepth(struct TreeNode* root) {
         }
         depth++;
     }
-
     return depth;
 }
