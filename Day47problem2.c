@@ -4,7 +4,6 @@ int maxDepth(struct TreeNode* root) {
     int front = 0, rear = 0;
     queue[rear++] = root;
     int depth = 0;
-
     while (front < rear) {
         int size = rear - front;
 
