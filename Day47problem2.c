@@ -2,7 +2,6 @@ int maxDepth(struct TreeNode* root) {
     if (!root) return 0;
     struct TreeNode* queue[10000];
     int front = 0, rear = 0;
-    
     queue[rear++] = root;
     int depth = 0;
 
