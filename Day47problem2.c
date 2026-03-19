@@ -8,7 +8,6 @@ int maxDepth(struct TreeNode* root) {
         int size = rear - front;
         for (int i = 0; i < size; i++) {
             struct TreeNode* node = queue[front++];
-            
             if (node->left) queue[rear++] = node->left;
             if (node->right) queue[rear++] = node->right;
         }
