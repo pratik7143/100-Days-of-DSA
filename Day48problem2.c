@@ -2,7 +2,6 @@ int sumOfLeftLeaves(struct TreeNode* root) {
     if (root == NULL) {
         return 0;
     }
-
     int sum = 0;
 
     // Check if left child is a leaf
