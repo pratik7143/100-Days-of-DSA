@@ -1,6 +1,7 @@
 int sumOfLeftLeaves(struct TreeNode* root) 
 {
-    if (root == NULL) {
+    if (root == NULL) 
+    {
         return 0;
     }
     int sum = 0;
