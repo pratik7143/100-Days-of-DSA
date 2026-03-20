@@ -7,7 +7,6 @@ int sumOfLeftLeaves(struct TreeNode* root) {
     if (root->left != NULL && 
         root->left->left == NULL && 
         root->left->right == NULL) {
-        
         sum += root->left->val;
     }
 
