@@ -11,6 +11,5 @@ int sumOfLeftLeaves(struct TreeNode* root) {
     }
     sum += sumOfLeftLeaves(root->left);
     sum += sumOfLeftLeaves(root->right);
-
     return sum;
 }
