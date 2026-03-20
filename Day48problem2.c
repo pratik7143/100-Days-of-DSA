@@ -9,7 +9,6 @@ int sumOfLeftLeaves(struct TreeNode* root) {
         root->left->right == NULL) {
         sum += root->left->val;
     }
-
     // Recur on left and right subtree
     sum += sumOfLeftLeaves(root->left);
     sum += sumOfLeftLeaves(root->right);
