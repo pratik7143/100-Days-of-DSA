@@ -3,7 +3,6 @@ int sumOfLeftLeaves(struct TreeNode* root) {
         return 0;
     }
     int sum = 0;
-
     // Check if left child is a leaf
     if (root->left != NULL && 
         root->left->left == NULL && 
