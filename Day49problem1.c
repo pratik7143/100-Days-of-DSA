@@ -40,7 +40,6 @@ void freeTree(struct TreeNode* root) {
     free(root);
 }
 
-// Main function
 int main() {
     struct TreeNode* root = NULL;
 
