@@ -13,8 +13,6 @@ struct TreeNode* createNode(int val) {
     newNode->right = NULL;
     return newNode;
 }
-
-// Function to insert into BST
 struct TreeNode* insertIntoBST(struct TreeNode* root, int val) {
     if (root == NULL) {
         return createNode(val);
