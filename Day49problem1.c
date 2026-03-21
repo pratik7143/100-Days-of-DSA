@@ -28,7 +28,6 @@ struct TreeNode* insertIntoBST(struct TreeNode* root, int val) {
 }
 void inorder(struct TreeNode* root) {
     if (root == NULL) return;
-
     inorder(root->left);
     printf("%d ", root->val);
     inorder(root->right);
