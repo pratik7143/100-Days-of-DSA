@@ -26,8 +26,6 @@ struct TreeNode* insertIntoBST(struct TreeNode* root, int val) {
 
     return root;
 }
-
-// Inorder traversal (Left → Root → Right)
 void inorder(struct TreeNode* root) {
     if (root == NULL) return;
 
