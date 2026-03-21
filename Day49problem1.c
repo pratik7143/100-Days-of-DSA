@@ -6,8 +6,6 @@ struct TreeNode {
     struct TreeNode *left;
     struct TreeNode *right;
 };
-
-// Function to create a new node
 struct TreeNode* createNode(int val) {
     struct TreeNode* newNode = (struct TreeNode*)malloc(sizeof(struct TreeNode));
     newNode->val = val;
