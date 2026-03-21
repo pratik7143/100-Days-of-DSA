@@ -33,8 +33,6 @@ void inorder(struct TreeNode* root) {
     printf("%d ", root->val);
     inorder(root->right);
 }
-
-// Free memory (optional but good practice)
 void freeTree(struct TreeNode* root) {
     if (root == NULL) return;
 
