@@ -34,7 +34,6 @@ void inorder(struct TreeNode* root) {
 }
 void freeTree(struct TreeNode* root) {
     if (root == NULL) return;
-
     freeTree(root->left);
     freeTree(root->right);
     free(root);
