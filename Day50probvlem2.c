@@ -7,7 +7,8 @@ struct TreeNode* searchBST(struct TreeNode* root, int val)
     if (val < root->val) 
     {
         return searchBST(root->left, val);
-    } else 
+    } 
+    else 
     {
         return searchBST(root->right, val);
     }
