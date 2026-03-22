@@ -1,6 +1,7 @@
 struct TreeNode* searchBST(struct TreeNode* root, int val) 
 {
-    if (root == NULL || root->val == val) {
+    if (root == NULL || root->val == val) 
+    {
         return root;
     }
     if (val < root->val) 
