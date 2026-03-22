@@ -1,4 +1,5 @@
-struct TreeNode* searchBST(struct TreeNode* root, int val) {
+struct TreeNode* searchBST(struct TreeNode* root, int val) 
+{
     if (root == NULL || root->val == val) {
         return root;
     }
