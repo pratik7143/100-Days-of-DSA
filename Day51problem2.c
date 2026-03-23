@@ -8,7 +8,8 @@ struct TreeNode* lowestCommonAncestor(struct TreeNode* root, struct TreeNode* p,
         else if (p->val > root->val && q->val > root->val) {
             root = root->right;
         }
-        else {
+        else 
+        {
             return root;
         }
     }
