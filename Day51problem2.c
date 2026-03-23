@@ -1,6 +1,6 @@
 struct TreeNode* lowestCommonAncestor(struct TreeNode* root, struct TreeNode* p, struct TreeNode* q) {
     while (root != NULL) {
-        // If both nodes are smaller, go left
+        
         if (p->val < root->val && q->val < root->val) {
             root = root->left;
         }
