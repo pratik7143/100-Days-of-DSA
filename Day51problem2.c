@@ -3,7 +3,7 @@ struct TreeNode* lowestCommonAncestor(struct TreeNode* root, struct TreeNode* p,
         if (p->val < root->val && q->val < root->val) {
             root = root->left;
         }
-        // If both nodes are greater, go right
+        
         else if (p->val > root->val && q->val > root->val) {
             root = root->right;
         }
