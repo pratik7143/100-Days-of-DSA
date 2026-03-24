@@ -5,6 +5,6 @@ struct TreeNode* lowestCommonAncestor(struct TreeNode* root, struct TreeNode* p,
     struct TreeNode* right = lowestCommonAncestor(root->right, p, q);
     if (left != NULL && right != NULL) return root;
 
-    // otherwise return the non-null side
+    
     return (left != NULL) ? left : right;
 }
