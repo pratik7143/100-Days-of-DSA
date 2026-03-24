@@ -3,7 +3,6 @@ struct TreeNode* lowestCommonAncestor(struct TreeNode* root, struct TreeNode* p,
     if (root == p || root == q) return root;
     struct TreeNode* left = lowestCommonAncestor(root->left, p, q);
     struct TreeNode* right = lowestCommonAncestor(root->right, p, q);
-    
     if (left != NULL && right != NULL) return root;
 
     // otherwise return the non-null side
