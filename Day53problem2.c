@@ -1,13 +1,4 @@
 #include <stdlib.h>
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     struct TreeNode *left;
- *     struct TreeNode *right;
- * };
- */
-// Queue implementation
 struct Queue {
     struct TreeNode** arr;
     int front, rear, size, capacity;
