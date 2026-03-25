@@ -12,7 +12,6 @@ struct Queue {
     struct TreeNode** arr;
     int front, rear, size, capacity;
 };
-
 struct Queue* createQueue(int capacity) {
     struct Queue* q = (struct Queue*)malloc(sizeof(struct Queue));
     q->arr = (struct TreeNode**)malloc(sizeof(struct TreeNode*) * capacity);
