@@ -37,7 +37,6 @@ int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes
     int levelCount = 0;
     while (!isEmpty(q)) {
         int size = q->size;
-
         result[levelCount] = (int*)malloc(sizeof(int) * size);
         (*returnColumnSizes)[levelCount] = size;
 
