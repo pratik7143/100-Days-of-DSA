@@ -34,7 +34,6 @@ int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes
     *returnColumnSizes = (int*)malloc(sizeof(int) * capacity);
     struct Queue* q = createQueue(capacity);
     enqueue(q, root);
-
     int levelCount = 0;
 
     while (!isEmpty(q)) {
