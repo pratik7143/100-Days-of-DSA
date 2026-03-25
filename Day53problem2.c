@@ -42,7 +42,6 @@ int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes
     int capacity = 10000;  // safer
     int** result = (int**)malloc(sizeof(int*) * capacity);
     *returnColumnSizes = (int*)malloc(sizeof(int) * capacity);
-
     struct Queue* q = createQueue(capacity);
     enqueue(q, root);
 
