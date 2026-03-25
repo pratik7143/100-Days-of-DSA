@@ -43,7 +43,6 @@ int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes
         for (int i = 0; i < size; i++) {
             struct TreeNode* node = dequeue(q);
             result[levelCount][i] = node->val;
-
             if (node->left) enqueue(q, node->left);
             if (node->right) enqueue(q, node->right);
         }
