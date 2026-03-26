@@ -12,7 +12,6 @@ struct Queue* createQueue(int capacity) {
     q->data = (struct TreeNode**)malloc(sizeof(struct TreeNode*) * capacity);
     return q;
 }
-
 int isEmpty(struct Queue* q) {
     return q->size == 0;
 }
