@@ -26,7 +26,6 @@ struct TreeNode* dequeue(struct Queue* q) {
     q->size--;
     return node;
 }
-
 int** zigzagLevelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes) {
     if (!root) {
         *returnSize = 0;
