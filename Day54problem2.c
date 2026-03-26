@@ -35,7 +35,6 @@ int** zigzagLevelOrder(struct TreeNode* root, int* returnSize, int** returnColum
     int** result = (int**)malloc(sizeof(int*) * 1000);
     *returnColumnSizes = (int*)malloc(sizeof(int) * 1000);
     enqueue(q, root);
-
     int level = 0;
     int leftToRight = 1;
 
