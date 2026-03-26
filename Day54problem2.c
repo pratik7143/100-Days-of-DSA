@@ -1,6 +1,5 @@
 #include <stdlib.h>
 
-// Queue structure
 struct Queue {
     struct TreeNode** data;
     int front, rear, size, capacity;
