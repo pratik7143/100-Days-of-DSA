@@ -50,7 +50,6 @@ int** zigzagLevelOrder(struct TreeNode* root, int* returnSize, int** returnColum
             if (node->left) enqueue(q, node->left);
             if (node->right) enqueue(q, node->right);
         }
-
         leftToRight = !leftToRight;
         level++;
     }
