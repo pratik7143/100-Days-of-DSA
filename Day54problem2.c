@@ -20,7 +20,6 @@ void enqueue(struct Queue* q, struct TreeNode* node) {
     q->data[q->rear] = node;
     q->size++;
 }
-
 struct TreeNode* dequeue(struct Queue* q) {
     struct TreeNode* node = q->data[q->front];
     q->front = (q->front + 1) % q->capacity;
