@@ -61,7 +61,6 @@ int** zigzagLevelOrder(struct TreeNode* root, int* returnSize, int** returnColum
         leftToRight = !leftToRight;
         level++;
     }
-
     *returnSize = level;
     return result;
 }
