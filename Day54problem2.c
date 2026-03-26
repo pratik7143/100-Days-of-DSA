@@ -15,7 +15,6 @@ struct Queue* createQueue(int capacity) {
 int isEmpty(struct Queue* q) {
     return q->size == 0;
 }
-
 void enqueue(struct Queue* q, struct TreeNode* node) {
     q->rear = (q->rear + 1) % q->capacity;
     q->data[q->rear] = node;
