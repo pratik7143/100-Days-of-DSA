@@ -8,7 +8,6 @@ int* rightSideView(struct TreeNode* root, int* returnSize) {
     int* result = (int*)malloc(1000 * sizeof(int));
     *returnSize = 0;
     queue[rear++] = root;
-
     while (front < rear) {
         int levelSize = rear - front;
 
