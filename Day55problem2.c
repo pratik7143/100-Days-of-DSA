@@ -21,6 +21,5 @@ int* rightSideView(struct TreeNode* root, int* returnSize) {
             if (node->right) queue[rear++] = node->right;
         }
     }
-
     return result;
 }
