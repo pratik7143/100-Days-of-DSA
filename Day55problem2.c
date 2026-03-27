@@ -12,7 +12,6 @@ int* rightSideView(struct TreeNode* root, int* returnSize) {
         int levelSize = rear - front;
         for (int i = 0; i < levelSize; i++) {
             struct TreeNode* node = queue[front++];
-
             if (i == levelSize - 1) {
                 result[*returnSize] = node->val;
                 (*returnSize)++;
