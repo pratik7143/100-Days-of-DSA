@@ -3,7 +3,6 @@ int* rightSideView(struct TreeNode* root, int* returnSize) {
         *returnSize = 0;
         return NULL;
     }
-
     struct TreeNode** queue = (struct TreeNode**)malloc(1000 * sizeof(struct TreeNode*));
     int front = 0, rear = 0;
 
