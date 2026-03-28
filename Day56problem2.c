@@ -1,6 +1,6 @@
 #include <stdbool.h>
 bool isMirror(struct TreeNode* t1, struct TreeNode* t2) {
-    // Both are NULL
+    
     if (t1 == NULL && t2 == NULL)
         return true;
 
