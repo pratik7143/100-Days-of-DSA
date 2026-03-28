@@ -8,8 +8,6 @@ bool isMirror(struct TreeNode* t1, struct TreeNode* t2) {
            isMirror(t1->left, t2->right) &&
            isMirror(t1->right, t2->left);
 }
-
-// Main function
 bool isSymmetric(struct TreeNode* root) {
     if (root == NULL)
         return true;
