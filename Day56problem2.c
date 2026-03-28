@@ -11,6 +11,5 @@ bool isMirror(struct TreeNode* t1, struct TreeNode* t2) {
 bool isSymmetric(struct TreeNode* root) {
     if (root == NULL)
         return true;
-
     return isMirror(root->left, root->right);
 }
