@@ -1,0 +1,25 @@
+#include <stdbool.h>
+
+// Helper function to check mirror
+bool isMirror(struct TreeNode* t1, struct TreeNode* t2) {
+    // Both are NULL
+    if (t1 == NULL && t2 == NULL)
+        return true;
+
+    // One is NULL
+    if (t1 == NULL || t2 == NULL)
+        return false;
+
+    // Check values and recursive symmetry
+    return (t1->val == t2->val) &&
+           isMirror(t1->left, t2->right) &&
+           isMirror(t1->right, t2->left);
+}
+
+// Main function
+bool isSymmetric(struct TreeNode* root) {
+    if (root == NULL)
+        return true;
+
+    return isMirror(root->left, root->right);
+}
