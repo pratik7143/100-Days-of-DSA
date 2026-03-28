@@ -1,5 +1,4 @@
 #include <stdbool.h>
-
 // Helper function to check mirror
 bool isMirror(struct TreeNode* t1, struct TreeNode* t2) {
     // Both are NULL
