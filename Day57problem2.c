@@ -8,7 +8,7 @@ void flatten(struct TreeNode* root) {
                 prev = prev->right;
             }
 
-            // Attach right subtree
+            
             prev->right = curr->right;
 
             // Move left subtree to right
