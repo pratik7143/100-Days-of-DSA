@@ -15,7 +15,7 @@ void flatten(struct TreeNode* root) {
             curr->right = curr->left;
             curr->left = NULL;
         }
-        // Move to next node
+        
         curr = curr->right;
     }
 }
