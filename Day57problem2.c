@@ -6,7 +6,6 @@ void flatten(struct TreeNode* root) {
             while (prev->right != NULL) {
                 prev = prev->right;
             }
-
             
             prev->right = curr->right;
 
