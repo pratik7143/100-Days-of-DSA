@@ -1,6 +1,5 @@
 void flatten(struct TreeNode* root) {
     struct TreeNode* curr = root;
-
     while (curr != NULL) {
         if (curr->left != NULL) {
             // Find rightmost node of left subtree
