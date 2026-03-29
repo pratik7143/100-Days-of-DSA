@@ -11,7 +11,7 @@ void flatten(struct TreeNode* root) {
             
             prev->right = curr->right;
 
-            // Move left subtree to right
+            
             curr->right = curr->left;
             curr->left = NULL;
         }
