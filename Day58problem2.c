@@ -19,7 +19,6 @@ struct TreeNode* build(
                        inorder, inStart, inIndex - 1);
     root->right = build(preorder, preStart + leftSize + 1, preEnd,
                         inorder, inIndex + 1, inEnd);
-
     return root;
 }
 
