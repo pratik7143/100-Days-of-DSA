@@ -5,7 +5,6 @@ int findIndex(int* inorder, int start, int end, int val) {
     }
     return -1;
 }
-
 struct TreeNode* build(
     int* preorder, int preStart, int preEnd,
     int* inorder, int inStart, int inEnd
