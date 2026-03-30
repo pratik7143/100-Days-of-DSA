@@ -15,7 +15,6 @@ struct TreeNode* build(
     root->val = preorder[preStart];
     int inIndex = findIndex(inorder, inStart, inEnd, root->val);
     int leftSize = inIndex - inStart;
-
     root->left = build(preorder, preStart + 1, preStart + leftSize,
                        inorder, inStart, inIndex - 1);
 
