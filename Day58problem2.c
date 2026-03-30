@@ -17,7 +17,6 @@ struct TreeNode* build(
     int leftSize = inIndex - inStart;
     root->left = build(preorder, preStart + 1, preStart + leftSize,
                        inorder, inStart, inIndex - 1);
-
     root->right = build(preorder, preStart + leftSize + 1, preEnd,
                         inorder, inIndex + 1, inEnd);
 
