@@ -13,7 +13,6 @@ struct TreeNode* build(
         return NULL;
     struct TreeNode* root = (struct TreeNode*)malloc(sizeof(struct TreeNode));
     root->val = preorder[preStart];
-
     int inIndex = findIndex(inorder, inStart, inEnd, root->val);
     int leftSize = inIndex - inStart;
 
