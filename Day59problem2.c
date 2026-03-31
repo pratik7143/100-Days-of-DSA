@@ -6,8 +6,7 @@ int findIndex(int* inorder, int start, int end, int val) {
     }
     return -1;
 }
-struct TreeNode* build(int* inorder, int inStart, int inEnd,
-                       int* postorder, int* postIndex) {
+struct TreeNode* build(int* inorder, int inStart, int inEnd,int* postorder, int* postIndex) {
     if (inStart > inEnd)
         return NULL;
     struct TreeNode* root = (struct TreeNode*)malloc(sizeof(struct TreeNode));
