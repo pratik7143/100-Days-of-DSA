@@ -20,7 +20,6 @@ struct TreeNode* build(int* inorder, int inStart, int inEnd,
     int inIndex = findIndex(inorder, inStart, inEnd, root->val);
     root->right = build(inorder, inIndex + 1, inEnd, postorder, postIndex);
     root->left  = build(inorder, inStart, inIndex - 1, postorder, postIndex);
-
     return root;
 }
 struct TreeNode* buildTree(int* inorder, int inorderSize,
