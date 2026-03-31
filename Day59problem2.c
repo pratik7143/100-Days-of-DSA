@@ -7,7 +7,6 @@ int findIndex(int* inorder, int start, int end, int val) {
     return -1;
 }
 
-// Recursive builder
 struct TreeNode* build(int* inorder, int inStart, int inEnd,
                        int* postorder, int* postIndex) {
     
