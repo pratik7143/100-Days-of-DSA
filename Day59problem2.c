@@ -10,7 +10,6 @@ struct TreeNode* build(int* inorder, int inStart, int inEnd,
                        int* postorder, int* postIndex) {
     if (inStart > inEnd)
         return NULL;
-
     // Pick current root from postorder
     struct TreeNode* root = (struct TreeNode*)malloc(sizeof(struct TreeNode));
     root->val = postorder[*postIndex];
