@@ -13,7 +13,6 @@ struct TreeNode* build(int* inorder, int inStart, int inEnd,
     struct TreeNode* root = (struct TreeNode*)malloc(sizeof(struct TreeNode));
     root->val = postorder[*postIndex];
     root->left = root->right = NULL;
-
     (*postIndex)--;
 
     // If only one node
