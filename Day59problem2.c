@@ -21,7 +21,8 @@ struct TreeNode* build(int* inorder, int inStart, int inEnd,int* postorder, int*
     root->left  = build(inorder, inStart, inIndex - 1, postorder, postIndex);
     return root;
 }
-struct TreeNode* buildTree(int* inorder, int inorderSize,int* postorder, int postorderSize) {
+struct TreeNode* buildTree(int* inorder, int inorderSize,int* postorder, int postorderSize) 
+{
     int postIndex = postorderSize - 1;
     return build(inorder, 0, inorderSize - 1, postorder, &postIndex);
 }
