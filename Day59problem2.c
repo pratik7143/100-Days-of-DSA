@@ -14,7 +14,6 @@ struct TreeNode* build(int* inorder, int inStart, int inEnd,
     root->val = postorder[*postIndex];
     root->left = root->right = NULL;
     (*postIndex)--;
-    // If only one node
     if (inStart == inEnd)
         return root;
     // Find root index in inorder
