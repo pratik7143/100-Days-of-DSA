@@ -26,7 +26,6 @@ struct TreeNode* build(int* inorder, int inStart, int inEnd,
 
     return root;
 }
-
 struct TreeNode* buildTree(int* inorder, int inorderSize,
                            int* postorder, int postorderSize) {
     
