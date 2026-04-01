@@ -3,7 +3,6 @@ int dfs(struct TreeNode* root) {
     if (root == NULL) return 2; // null nodes are covered
     int left = dfs(root->left);
     int right = dfs(root->right);
-
     // If any child is not covered → place camera here
     if (left == 0 || right == 0) {
         cameras++;
