@@ -1,7 +1,6 @@
 int cameras = 0;
 int dfs(struct TreeNode* root) {
     if (root == NULL) return 2; // null nodes are covered
-
     int left = dfs(root->left);
     int right = dfs(root->right);
 
