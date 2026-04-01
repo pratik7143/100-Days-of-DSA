@@ -20,6 +20,5 @@ int minCameraCover(struct TreeNode* root) {
     if (dfs(root) == 0) {
         cameras++; // cover root if needed
     }
-
     return cameras;
 }
