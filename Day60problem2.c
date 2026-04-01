@@ -12,7 +12,6 @@ int dfs(struct TreeNode* root) {
     if (left == 1 || right == 1) {
         return 2; // covered
     }
-
     // Otherwise, not covered
     return 0;
 }
