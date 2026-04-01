@@ -8,7 +8,6 @@ int dfs(struct TreeNode* root) {
         cameras++;
         return 1; // has camera
     }
-
     // If any child has camera → this node is covered
     if (left == 1 || right == 1) {
         return 2; // covered
