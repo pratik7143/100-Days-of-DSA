@@ -15,7 +15,6 @@ int findCircleNum(int** isConnected, int isConnectedSize, int* isConnectedColSiz
     for (int i = 0; i < n; i++) {
         visited[i] = false;
     }
-
     int provinces = 0;
 
     for (int i = 0; i < n; i++) {
