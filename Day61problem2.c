@@ -1,5 +1,4 @@
 #include <stdbool.h>
-
 // DFS function
 void dfs(int** isConnected, int n, int city, bool* visited) {
     visited[city] = true;
