@@ -11,7 +11,6 @@ void dfs(int** isConnected, int n, int city, bool* visited) {
 int findCircleNum(int** isConnected, int isConnectedSize, int* isConnectedColSize) {
     int n = isConnectedSize;
     bool visited[n];
-    // Initialize visited array
     for (int i = 0; i < n; i++) {
         visited[i] = false;
     }
