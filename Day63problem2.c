@@ -1,7 +1,6 @@
 void dfs(int** image, int imageSize, int* imageColSize, int r, int c, int oldColor, int newColor) {
     if (r < 0 || c < 0 || r >= imageSize || c >= imageColSize[0])
         return;
-
     if (image[r][c] != oldColor)
         return;
     // Fill color
