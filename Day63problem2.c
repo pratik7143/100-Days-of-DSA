@@ -4,7 +4,6 @@ void dfs(int** image, int imageSize, int* imageColSize, int r, int c, int oldCol
     if (image[r][c] != oldColor)
         return;
     image[r][c] = newColor;
-    
     dfs(image, imageSize, imageColSize, r + 1, c, oldColor, newColor);
     dfs(image, imageSize, imageColSize, r - 1, c, oldColor, newColor);
     dfs(image, imageSize, imageColSize, r, c + 1, oldColor, newColor);
