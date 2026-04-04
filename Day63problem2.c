@@ -13,7 +13,6 @@ void dfs(int** image, int imageSize, int* imageColSize, int r, int c, int oldCol
     dfs(image, imageSize, imageColSize, r, c - 1, oldColor, newColor);
 }
 int** floodFill(int** image, int imageSize, int* imageColSize, int sr, int sc, int color, int* returnSize, int** returnColumnSizes) {
-    
     int oldColor = image[sr][sc];
 
     // Edge case: no need to fill
