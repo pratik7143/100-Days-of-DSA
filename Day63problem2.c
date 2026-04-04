@@ -4,7 +4,6 @@ void dfs(int** image, int imageSize, int* imageColSize, int r, int c, int oldCol
     // Stop if color doesn't match
     if (image[r][c] != oldColor)
         return;
-
     // Fill color
     image[r][c] = newColor;
 
