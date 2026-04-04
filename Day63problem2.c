@@ -20,7 +20,6 @@ int** floodFill(int** image, int imageSize, int* imageColSize, int sr, int sc, i
         *returnColumnSizes = imageColSize;
         return image;
     }
-
     dfs(image, imageSize, imageColSize, sr, sc, oldColor, color);
 
     *returnSize = imageSize;
