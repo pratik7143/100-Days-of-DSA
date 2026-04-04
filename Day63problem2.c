@@ -6,7 +6,6 @@ void dfs(int** image, int imageSize, int* imageColSize, int r, int c, int oldCol
         return;
     // Fill color
     image[r][c] = newColor;
-
     // Explore neighbors
     dfs(image, imageSize, imageColSize, r + 1, c, oldColor, newColor);
     dfs(image, imageSize, imageColSize, r - 1, c, oldColor, newColor);
