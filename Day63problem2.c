@@ -1,8 +1,6 @@
 void dfs(int** image, int imageSize, int* imageColSize, int r, int c, int oldColor, int newColor) {
-    // Boundary check
     if (r < 0 || c < 0 || r >= imageSize || c >= imageColSize[0])
         return;
-
     // Stop if color doesn't match
     if (image[r][c] != oldColor)
         return;
