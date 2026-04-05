@@ -43,7 +43,6 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize) {
                 }
             }
         }
-
         if (rottenThisRound) minutes++;
     }
 
