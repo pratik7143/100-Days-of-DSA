@@ -7,7 +7,6 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize) {
     int cols = gridColSize[0];
     Node queue[rows * cols];
     int front = 0, rear = 0;
-
     int fresh = 0;
 
     // Step 1: count fresh & push rotten
