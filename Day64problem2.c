@@ -5,7 +5,6 @@ typedef struct {
 int orangesRotting(int** grid, int gridSize, int* gridColSize) {
     int rows = gridSize;
     int cols = gridColSize[0];
-
     Node queue[rows * cols];
     int front = 0, rear = 0;
 
