@@ -17,8 +17,6 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize) {
             }
         }
     }
-
-    // If no fresh oranges
     if (fresh == 0) return 0;
 
     int minutes = 0;
