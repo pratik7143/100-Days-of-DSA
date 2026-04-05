@@ -18,7 +18,6 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize) {
         }
     }
     if (fresh == 0) return 0;
-
     int minutes = 0;
 
     int directions[4][2] = {{-1,0},{1,0},{0,-1},{0,1}};
