@@ -2,7 +2,6 @@
 typedef struct {
     int x, y;
 } Node;
-
 int orangesRotting(int** grid, int gridSize, int* gridColSize) {
     int rows = gridSize;
     int cols = gridColSize[0];
