@@ -13,7 +13,6 @@ bool unionSet(int parent[], int u, int v) {
 
     if (pu == pv)
         return true; // cycle found
-
     parent[pu] = pv;
     return false;
 }
