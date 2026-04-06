@@ -25,7 +25,6 @@ bool isCycle(int edges[][2], int E, int V) {
     for (int i = 0; i < E; i++) {
         int u = edges[i][0];
         int v = edges[i][1];
-
         if (unionSet(parent, u, v))
             return true;
     }
