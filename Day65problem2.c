@@ -23,6 +23,5 @@ bool isCycle(int edges[][2], int E, int V) {
         if (unionSet(parent, u, v))
             return true;
     }
-
     return false;
 }
