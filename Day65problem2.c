@@ -18,7 +18,6 @@ bool isCycle(int edges[][2], int E, int V) {
     // Initialize
     for (int i = 0; i < V; i++)
         parent[i] = i;
-
     // Process edges
     for (int i = 0; i < E; i++) {
         int u = edges[i][0];
