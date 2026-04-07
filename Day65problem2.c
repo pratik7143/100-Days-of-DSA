@@ -9,7 +9,7 @@ bool unionSet(int parent[], int u, int v) {
     int pu = find(parent, u);
     int pv = find(parent, v);
     if (pu == pv)
-        return true; // cycle found
+        return true;
     parent[pu] = pv;
     return false;
 }
