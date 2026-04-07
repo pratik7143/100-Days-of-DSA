@@ -1,6 +1,5 @@
 #include <stdbool.h>
 #include <stdlib.h>
-
 bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* prerequisitesColSize) {
     
     // Step 1: Create adjacency list
