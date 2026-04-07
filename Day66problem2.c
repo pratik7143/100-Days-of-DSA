@@ -24,7 +24,6 @@ bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* 
             queue[rear++] = i;
         }
     }
-
     // Step 5: Process nodes
     int count = 0;
 
