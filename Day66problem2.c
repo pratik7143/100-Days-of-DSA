@@ -13,7 +13,6 @@ bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* 
     for (int i = 0; i < prerequisitesSize; i++) {
         int a = prerequisites[i][0];
         int b = prerequisites[i][1];
-
         adj[b][adjSize[b]++] = a;  // b → a
         indegree[a]++;
     }
