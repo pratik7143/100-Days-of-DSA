@@ -14,7 +14,8 @@ bool unionSet(int parent[], int u, int v) {
     parent[pu] = pv;
     return false;
 }
-bool isCycle(int edges[][2], int E, int V) {
+bool isCycle(int edges[][2], int E, int V)
+{
     int* parent = (int*)malloc(V * sizeof(int));
     for (int i = 0; i < V; i++)
         parent[i] = i;
