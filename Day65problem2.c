@@ -17,7 +17,7 @@ bool isCycle(int edges[][2], int E, int V) {
     int* parent = (int*)malloc(V * sizeof(int));
     for (int i = 0; i < V; i++)
         parent[i] = i;
-    // Process edges
+    
     for (int i = 0; i < E; i++) {
         int u = edges[i][0];
         int v = edges[i][1];
