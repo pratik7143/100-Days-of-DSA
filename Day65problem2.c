@@ -1,6 +1,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
-int find(int parent[], int x) {
+int find(int parent[], int x) 
+{
     if (parent[x] != x)
         parent[x] = find(parent, parent[x]);
     return parent[x];
