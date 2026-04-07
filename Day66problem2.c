@@ -9,7 +9,6 @@ bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* 
     }
     // Step 2: Create indegree array
     int* indegree = (int*)calloc(numCourses, sizeof(int));
-
     // Step 3: Fill graph
     for (int i = 0; i < prerequisitesSize; i++) {
         int a = prerequisites[i][0];
