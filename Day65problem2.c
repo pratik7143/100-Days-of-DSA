@@ -5,7 +5,6 @@ int find(int parent[], int x) {
         parent[x] = find(parent, parent[x]);
     return parent[x];
 }
-// Union function
 bool unionSet(int parent[], int u, int v) {
     int pu = find(parent, u);
     int pv = find(parent, v);
