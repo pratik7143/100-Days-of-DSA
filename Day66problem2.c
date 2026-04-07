@@ -16,7 +16,6 @@ bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* 
         adj[b][adjSize[b]++] = a;  // b → a
         indegree[a]++;
     }
-    // Step 4: Queue for BFS
     int* queue = (int*)malloc(numCourses * sizeof(int));
     int front = 0, rear = 0;
     // Push all nodes with indegree 0
