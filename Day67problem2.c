@@ -26,7 +26,6 @@ int* findOrder(int numCourses, int** prerequisites, int prerequisitesSize, int* 
     // Step 5: Result array
     int* result = (int*)malloc(numCourses * sizeof(int));
     int count = 0;
-
     while (front < rear) {
         int node = queue[front++];
         result[count++] = node;
