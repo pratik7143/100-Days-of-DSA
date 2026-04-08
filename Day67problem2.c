@@ -19,7 +19,6 @@ int* findOrder(int numCourses, int** prerequisites, int prerequisitesSize, int* 
     // Step 4: Queue
     int* queue = (int*)malloc(numCourses * sizeof(int));
     int front = 0, rear = 0;
-
     for (int i = 0; i < numCourses; i++) {
         if (indegree[i] == 0) {
             queue[rear++] = i;
