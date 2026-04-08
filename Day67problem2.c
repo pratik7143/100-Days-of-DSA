@@ -1,5 +1,4 @@
 #include <stdlib.h>
-
 int* findOrder(int numCourses, int** prerequisites, int prerequisitesSize, int* prerequisitesColSize, int* returnSize) {
     
     // Step 1: Create adjacency list
