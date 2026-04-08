@@ -6,7 +6,6 @@ int* findOrder(int numCourses, int** prerequisites, int prerequisitesSize, int* 
     for (int i = 0; i < numCourses; i++) {
         adj[i] = (int*)malloc(numCourses * sizeof(int)); // max possible edges
     }
-
     // Step 2: Indegree array
     int* indegree = (int*)calloc(numCourses, sizeof(int));
 
