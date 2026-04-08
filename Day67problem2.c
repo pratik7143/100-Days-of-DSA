@@ -1,6 +1,5 @@
 #include <stdlib.h>
 int* findOrder(int numCourses, int** prerequisites, int prerequisitesSize, int* prerequisitesColSize, int* returnSize) {
-    
     // Step 1: Create adjacency list
     int** adj = (int**)malloc(numCourses * sizeof(int*));
     int* adjSize = (int*)calloc(numCourses, sizeof(int));
