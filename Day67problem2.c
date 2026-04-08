@@ -8,7 +8,6 @@ int* findOrder(int numCourses, int** prerequisites, int prerequisitesSize, int* 
     }
     // Step 2: Indegree array
     int* indegree = (int*)calloc(numCourses, sizeof(int));
-
     // Step 3: Build graph
     for (int i = 0; i < prerequisitesSize; i++) {
         int a = prerequisites[i][0];
