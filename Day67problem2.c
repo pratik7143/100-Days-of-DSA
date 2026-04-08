@@ -30,7 +30,6 @@ int* findOrder(int numCourses, int** prerequisites, int prerequisitesSize, int* 
     while (front < rear) {
         int node = queue[front++];
         result[count++] = node;
-
         for (int i = 0; i < adjSize[node]; i++) {
             int neighbor = adj[node][i];
             indegree[neighbor]--;
