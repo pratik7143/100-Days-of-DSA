@@ -43,7 +43,6 @@ int* findOrder(int numCourses, int** prerequisites, int prerequisitesSize, int* 
         *returnSize = 0;
         return (int*)malloc(0); // empty array
     }
-
     *returnSize = numCourses;
     return result;
 }
