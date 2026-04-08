@@ -38,7 +38,6 @@ int* findOrder(int numCourses, int** prerequisites, int prerequisitesSize, int* 
             }
         }
     }
-
     // Step 6: Check cycle
     if (count != numCourses) {
         *returnSize = 0;
