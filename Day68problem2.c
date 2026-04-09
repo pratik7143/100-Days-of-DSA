@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 #define MAX 26
-
 // Queue structure
 typedef struct {
     int data[26];
