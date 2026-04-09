@@ -53,7 +53,6 @@ char* alienOrder(char words[][100], int n) {
                 break;
             }
         }
-
         // Invalid case
         if (!found && len1 > len2) {
             return "";
