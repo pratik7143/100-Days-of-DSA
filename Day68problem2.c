@@ -10,7 +10,6 @@ typedef struct {
 void initQueue(Queue *q) {
     q->front = q->rear = 0;
 }
-
 int isEmpty(Queue *q) {
     return q->front == q->rear;
 }
