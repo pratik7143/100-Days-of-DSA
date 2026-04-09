@@ -7,7 +7,6 @@ typedef struct {
     int data[26];
     int front, rear;
 } Queue;
-
 void initQueue(Queue *q) {
     q->front = q->rear = 0;
 }
