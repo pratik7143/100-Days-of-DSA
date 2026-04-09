@@ -21,8 +21,7 @@ int dequeue(Queue *q) {
 }
 // Function to find alien dictionary order
 char* alienOrder(char words[][100], int n) {
-    static char result[27];
-    
+    static char result[27]
     int graph[MAX][MAX] = {0};
     int indegree[MAX] = {0};
     int present[MAX] = {0};
