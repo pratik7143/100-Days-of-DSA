@@ -14,7 +14,6 @@ void initQueue(Queue *q) {
 int isEmpty(Queue *q) {
     return q->front == q->rear;
 }
-
 void enqueue(Queue *q, int x) {
     q->data[q->rear++] = x;
 }
