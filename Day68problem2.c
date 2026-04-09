@@ -25,7 +25,6 @@ char* alienOrder(char words[][100], int n) {
     int graph[MAX][MAX] = {0};
     int indegree[MAX] = {0};
     int present[MAX] = {0};
-
     // Mark all characters present
     for (int i = 0; i < n; i++) {
         for (int j = 0; words[i][j]; j++) {
