@@ -31,7 +31,6 @@ char* alienOrder(char words[][100], int n) {
             present[words[i][j] - 'a'] = 1;
         }
     }
-
     // Build graph
     for (int i = 0; i < n - 1; i++) {
         char *w1 = words[i];
