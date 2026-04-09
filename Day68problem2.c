@@ -19,7 +19,6 @@ void enqueue(Queue *q, int x) {
 int dequeue(Queue *q) {
     return q->data[q->front++];
 }
-
 // Function to find alien dictionary order
 char* alienOrder(char words[][100], int n) {
     static char result[27];
