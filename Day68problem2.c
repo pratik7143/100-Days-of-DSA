@@ -16,7 +16,6 @@ int isEmpty(Queue *q) {
 void enqueue(Queue *q, int x) {
     q->data[q->rear++] = x;
 }
-
 int dequeue(Queue *q) {
     return q->data[q->front++];
 }
