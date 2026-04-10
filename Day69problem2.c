@@ -12,7 +12,6 @@ int minDistance(int dist[], int visited[], int n) {
     }
     return min_index;
 }
-
 int networkDelayTime(int** times, int timesSize, int* timesColSize, int n, int k) {
     int graph[MAX][MAX];
 
