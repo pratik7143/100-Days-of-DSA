@@ -4,7 +4,6 @@
 #define MAX 101
 int minDistance(int dist[], int visited[], int n) {
     int min = INT_MAX, min_index = -1;
-
     for (int i = 1; i <= n; i++) {
         if (!visited[i] && dist[i] <= min) {
             min = dist[i];
