@@ -30,7 +30,6 @@ int networkDelayTime(int** times, int timesSize, int* timesColSize, int n, int k
 
     int dist[MAX];
     int visited[MAX];
-
     // Initialize distances
     for (int i = 1; i <= n; i++) {
         dist[i] = INT_MAX;
