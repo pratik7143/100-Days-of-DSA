@@ -38,7 +38,6 @@ int networkDelayTime(int** times, int timesSize, int* timesColSize, int n, int k
     // Dijkstra Algorithm
     for (int i = 1; i <= n - 1; i++) {
         int u = minDistance(dist, visited, n);
-
         if (u == -1) break;
 
         visited[u] = 1;
