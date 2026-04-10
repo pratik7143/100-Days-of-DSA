@@ -27,7 +27,6 @@ int networkDelayTime(int** times, int timesSize, int* timesColSize, int n, int k
         int w = times[i][2];
         graph[u][v] = w;
     }
-
     int dist[MAX];
     int visited[MAX];
     // Initialize distances
