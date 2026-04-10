@@ -20,7 +20,6 @@ int networkDelayTime(int** times, int timesSize, int* timesColSize, int n, int k
             graph[i][j] = INT_MAX;
         }
     }
-
     // Fill graph
     for (int i = 0; i < timesSize; i++) {
         int u = times[i][0];
