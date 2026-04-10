@@ -14,7 +14,6 @@ int minDistance(int dist[], int visited[], int n) {
 }
 int networkDelayTime(int** times, int timesSize, int* timesColSize, int n, int k) {
     int graph[MAX][MAX];
-
     // Initialize graph with large values
     for (int i = 1; i <= n; i++) {
         for (int j = 1; j <= n; j++) {
