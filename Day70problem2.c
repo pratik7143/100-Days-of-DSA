@@ -7,7 +7,6 @@ int findCheapestPrice(int n, int** flights, int flightsSize, int* flightsColSize
         dist[i] = INT_MAX;
     }
     dist[src] = 0;
-    // Run the relaxation k + 1 times
     for (int i = 0; i <= k; i++) {
         int temp[n];
         memcpy(temp, dist, sizeof(dist));
