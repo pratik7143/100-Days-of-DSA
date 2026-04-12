@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <limits.h>
 #include <string.h>
-
 int findCheapestPrice(int n, int** flights, int flightsSize, int* flightsColSize, int src, int dst, int k) {
     // Initialize distances with a large value (infinity)
     int dist[n];
