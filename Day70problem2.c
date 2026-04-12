@@ -26,6 +26,5 @@ int findCheapestPrice(int n, int** flights, int flightsSize, int* flightsColSize
         // Update the main dist array with the results of this iteration
         memcpy(dist, temp, sizeof(dist));
     }
-
     return (dist[dst] == INT_MAX) ? -1 : dist[dst];
 }
