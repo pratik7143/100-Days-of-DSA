@@ -14,7 +14,6 @@ int findCheapestPrice(int n, int** flights, int flightsSize, int* flightsColSize
             int u = flights[j][0];
             int v = flights[j][1];
             int price = flights[j][2];
-            // If the source of the flight is reachable
             if (dist[u] != INT_MAX) {
                 if (dist[u] + price < temp[v]) {
                     temp[v] = dist[u] + price;
