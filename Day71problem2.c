@@ -8,7 +8,6 @@ int minCostConnectPoints(int** points, int pointsSize, int* pointsColSize) {
     if (pointsSize <= 1) {
         return 0;
     }
-
     // minDist tracks the shortest distance from the current MST to unvisited points
     int* minDist = (int*)malloc(pointsSize * sizeof(int));
     // visited tracks which points are already in our MST
