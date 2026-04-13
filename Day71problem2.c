@@ -32,8 +32,6 @@ int minCostConnectPoints(int** points, int pointsSize, int* pointsColSize) {
                 // Calculate Manhattan distance between currNode and unvisited node 'i'
                 int dist = abs_val(points[currNode][0] - points[i][0]) + 
                            abs_val(points[currNode][1] - points[i][1]);
-                
-                // Update the shortest known distance to node 'i' if this new path is better
                 if (dist < minDist[i]) {
                     minDist[i] = dist;
                 }
