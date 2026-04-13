@@ -4,7 +4,6 @@
 int abs_val(int x) {
     return x < 0 ? -x : x;
 }
-
 int minCostConnectPoints(int** points, int pointsSize, int* pointsColSize) {
     // If there's 1 or 0 points, the cost to connect them is 0
     if (pointsSize <= 1) {
