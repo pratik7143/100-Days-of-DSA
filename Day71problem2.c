@@ -26,7 +26,6 @@ int minCostConnectPoints(int** points, int pointsSize, int* pointsColSize) {
     for (int step = 0; step < pointsSize - 1; step++) {
         int minEdge = INT_MAX;
         int nextNode = -1;
-        
         // Update distances to unvisited nodes from the newly added node
         for (int i = 0; i < pointsSize; i++) {
             if (!visited[i]) {
