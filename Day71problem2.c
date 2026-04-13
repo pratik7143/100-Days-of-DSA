@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <limits.h>
 
-// Helper function to calculate absolute value
 int abs_val(int x) {
     return x < 0 ? -x : x;
 }
