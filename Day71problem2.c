@@ -46,7 +46,6 @@ int minCostConnectPoints(int** points, int pointsSize, int* pointsColSize) {
                 }
             }
         }
-        
         // Add the closest unvisited node to our MST
         totalCost += minEdge;
         visited[nextNode] = 1;
