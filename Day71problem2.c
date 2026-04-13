@@ -12,7 +12,6 @@ int minCostConnectPoints(int** points, int pointsSize, int* pointsColSize) {
     int* minDist = (int*)malloc(pointsSize * sizeof(int));
     // visited tracks which points are already in our MST
     int* visited = (int*)calloc(pointsSize, sizeof(int));
-    
     int totalCost = 0;
     // Initialize minimum distances to infinity (INT_MAX)
     for (int i = 0; i < pointsSize; i++) {
