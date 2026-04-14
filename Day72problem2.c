@@ -9,7 +9,6 @@ int tsp(int n, int cost[MAXN][MAXN]) {
     int N = 1 << n;
     // dp[mask][i] = minimum cost to reach city i with visited mask
     int dp[1 << MAXN][MAXN];
-    
     // Initialize dp with large values
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < n; j++) {
