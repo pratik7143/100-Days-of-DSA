@@ -17,7 +17,6 @@ int tsp(int n, int cost[MAXN][MAXN]) {
     }
     // Start from city 0
     dp[1][0] = 0;
-    
     for (int mask = 1; mask < N; mask++) {
         for (int u = 0; u < n; u++) {
             if (!(mask & (1 << u))) continue;
