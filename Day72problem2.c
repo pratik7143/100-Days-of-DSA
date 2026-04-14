@@ -35,7 +35,6 @@ int tsp(int n, int cost[MAXN][MAXN]) {
             }
         }
     }
-    
     int ans = INT_MAX;
     int fullMask = N - 1;
     
