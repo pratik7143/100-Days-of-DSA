@@ -16,7 +16,6 @@ int tsp(int n, int cost[MAXN][MAXN]) {
             dp[i][j] = INT_MAX;
         }
     }
-    
     // Start from city 0
     dp[1][0] = 0;
     
