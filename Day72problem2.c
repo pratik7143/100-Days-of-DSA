@@ -37,7 +37,6 @@ int tsp(int n, int cost[MAXN][MAXN]) {
     }
     int ans = INT_MAX;
     int fullMask = N - 1;
-    
     // Return to city 0
     for (int i = 1; i < n; i++) {
         if (dp[fullMask][i] != INT_MAX) {
