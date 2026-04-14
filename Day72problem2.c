@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <limits.h>
 #define MAXN 15  // Maximum number of cities
-
 int min(int a, int b) {
     return (a < b) ? a : b;
 }
