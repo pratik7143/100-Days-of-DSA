@@ -46,7 +46,6 @@ int tsp(int n, int cost[MAXN][MAXN]) {
     
     return ans;
 }
-
 int main() {
     int n = 4;
     int cost[MAXN][MAXN] = {
