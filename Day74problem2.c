@@ -21,6 +21,5 @@ int findCircleNum(int** isConnected, int isConnectedSize, int* isConnectedColSiz
             provinces++;  // New province found
         }
     }
-
     return provinces;
 }
