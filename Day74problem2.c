@@ -7,7 +7,8 @@ void dfs(int** isConnected, int n, int city, int* visited) {
         }
     }
 }
-int findCircleNum(int** isConnected, int isConnectedSize, int* isConnectedColSize) {
+int findCircleNum(int** isConnected, int isConnectedSize, int* isConnectedColSize) 
+{
     int n = isConnectedSize;
     int visited[n];
     for (int i = 0; i < n; i++) {
