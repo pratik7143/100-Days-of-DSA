@@ -14,7 +14,6 @@ int findCircleNum(int** isConnected, int isConnectedSize, int* isConnectedColSiz
         visited[i] = 0;
     }
     int provinces = 0;
-
     for (int i = 0; i < n; i++) {
         if (!visited[i]) {
             dfs(isConnected, n, i, visited);
