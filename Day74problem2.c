@@ -1,6 +1,4 @@
 #include <stdio.h>
-
-// DFS function
 void dfs(int** isConnected, int n, int city, int* visited) {
     visited[city] = 1;
 
