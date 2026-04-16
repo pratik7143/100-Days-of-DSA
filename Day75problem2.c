@@ -9,7 +9,8 @@ bool dfs(int node, int** graph, int* graphColSize, int* color, int currColor)
             if (!dfs(neighbor, graph, graphColSize, color, 1 - currColor)) {
                 return false;
             }
-        } else if (color[neighbor] == currColor) {
+        } else if (color[neighbor] == currColor) 
+        {
             // Conflict found
             return false;
         }
