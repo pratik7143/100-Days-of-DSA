@@ -3,7 +3,6 @@ bool dfs(int node, int** graph, int* graphColSize, int* color, int currColor) {
     color[node] = currColor;
     for (int i = 0; i < graphColSize[node]; i++) {
         int neighbor = graph[node][i];
-
         if (color[neighbor] == -1) {
             // Color neighbor with opposite color
             if (!dfs(neighbor, graph, graphColSize, color, 1 - currColor)) {
