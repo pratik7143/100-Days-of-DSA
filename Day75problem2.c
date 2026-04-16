@@ -22,7 +22,6 @@ bool isBipartite(int** graph, int graphSize, int* graphColSize) {
     for (int i = 0; i < graphSize; i++) {
         color[i] = -1;
     }
-
     // Handle disconnected graph
     for (int i = 0; i < graphSize; i++) {
         if (color[i] == -1) {
