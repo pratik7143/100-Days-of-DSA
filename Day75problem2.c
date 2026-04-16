@@ -1,5 +1,6 @@
 #include <stdbool.h>
-bool dfs(int node, int** graph, int* graphColSize, int* color, int currColor) {
+bool dfs(int node, int** graph, int* graphColSize, int* color, int currColor) 
+{
     color[node] = currColor;
     for (int i = 0; i < graphColSize[node]; i++) {
         int neighbor = graph[node][i];
