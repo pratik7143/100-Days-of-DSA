@@ -15,7 +15,6 @@ bool dfs(int node, int** graph, int* graphColSize, int* color, int currColor) {
     }
     return true;
 }
-
 bool isBipartite(int** graph, int graphSize, int* graphColSize) {
     int color[graphSize];
 
