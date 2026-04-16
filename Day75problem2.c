@@ -1,5 +1,4 @@
 #include <stdbool.h>
-
 bool dfs(int node, int** graph, int* graphColSize, int* color, int currColor) {
     color[node] = currColor;
 
