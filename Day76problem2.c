@@ -29,6 +29,5 @@ struct Node *cloneGraph(struct Node *s) {
     for (int i = 0; i < 101; i++) {
         visited[i] = NULL;
     }
-
     return dfs(s);
 }
