@@ -3,7 +3,6 @@
 struct Node* visited[101];
 struct Node* dfs(struct Node* node) {
     if (node == NULL) return NULL;
-
     // If already cloned
     if (visited[node->val] != NULL) {
         return visited[node->val];
