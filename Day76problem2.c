@@ -1,7 +1,6 @@
 #include <stdlib.h>
 // Map original node value → cloned node
 struct Node* visited[101];
-
 struct Node* dfs(struct Node* node) {
     if (node == NULL) return NULL;
 
