@@ -21,7 +21,6 @@ struct Node* dfs(struct Node* node) {
 
     return clone;
 }
-
 struct Node *cloneGraph(struct Node *s) {
     if (s == NULL) return NULL;
 
