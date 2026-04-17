@@ -7,7 +7,6 @@ struct Node* dfs(struct Node* node) {
     if (visited[node->val] != NULL) {
         return visited[node->val];
     }
-
     // Create clone
     struct Node* clone = (struct Node*)malloc(sizeof(struct Node));
     clone->val = node->val;
