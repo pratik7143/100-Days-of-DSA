@@ -12,7 +12,6 @@ struct Node* dfs(struct Node* node) {
     clone->val = node->val;
     clone->numNeighbors = node->numNeighbors;
     clone->neighbors = (struct Node**)malloc(sizeof(struct Node*) * node->numNeighbors);
-
     // Mark visited
     visited[node->val] = clone;
 
