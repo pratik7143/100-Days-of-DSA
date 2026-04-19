@@ -44,7 +44,7 @@ int** criticalConnections(int n, int** connections, int connectionsSize,
         adjSize[connections[i][0]]++;
         adjSize[connections[i][1]]++;
     }
-    
+
     // Allocate exact memory
     for (int i = 0; i < n; i++) {
         adj[i] = (int*)malloc(adjSize[i] * sizeof(int));
