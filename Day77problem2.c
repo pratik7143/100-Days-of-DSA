@@ -47,7 +47,6 @@ int** criticalConnections(int n, int** connections, int connectionsSize,
     for (int i = 0; i < connectionsSize; i++) {
         int u = connections[i][0];
         int v = connections[i][1];
-        
         adj[u][adjSize[u]++] = v;
         adj[v][adjSize[v]++] = u;
     }
