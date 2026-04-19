@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 int timer = 0;
-
 void dfs(int u, int parent, int* disc, int* low,
          int** adj, int* adjSize,
          int** result, int* returnSize) {
