@@ -50,7 +50,6 @@ int** criticalConnections(int n, int** connections, int connectionsSize,
         adj[i] = (int*)malloc(adjSize[i] * sizeof(int));
         adjSize[i] = 0; // reset for filling
     }
-    
     // Fill adjacency list
     for (int i = 0; i < connectionsSize; i++) {
         int u = connections[i][0];
