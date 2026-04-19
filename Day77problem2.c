@@ -50,7 +50,6 @@ int** criticalConnections(int n, int** connections, int connectionsSize,
         adj[u][adjSize[u]++] = v;
         adj[v][adjSize[v]++] = u;
     }
-    
     // Initialize arrays
     int* disc = (int*)malloc(n * sizeof(int));
     int* low = (int*)malloc(n * sizeof(int));
