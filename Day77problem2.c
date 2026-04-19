@@ -7,7 +7,6 @@ void dfs(int u, int parent, int* disc, int* low,
     disc[u] = low[u] = timer++;
     for (int i = 0; i < adjSize[u]; i++) {
         int v = adj[u][i];
-        
         if (v == parent) continue;
         
         if (disc[v] == -1) {
