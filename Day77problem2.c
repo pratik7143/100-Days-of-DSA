@@ -58,7 +58,6 @@ int** criticalConnections(int n, int** connections, int connectionsSize,
         disc[i] = -1;
         low[i] = -1;
     }
-    
     int** result = (int**)malloc(connectionsSize * sizeof(int*));
     *returnColumnSizes = (int*)malloc(connectionsSize * sizeof(int));
     *returnSize = 0;
