@@ -15,7 +15,6 @@ void dfs(int u, int parent, int* disc, int* low,
             dfs(v, u, disc, low, adj, adjSize, result, returnSize);
             
             low[u] = low[u] < low[v] ? low[u] : low[v];
-            
             if (low[v] > disc[u]) {
                 result[*returnSize] = (int*)malloc(2 * sizeof(int));
                 result[*returnSize][0] = u;
