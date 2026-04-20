@@ -44,7 +44,6 @@ public:
         // Step 4: DFS on reversed graph
         fill(vis.begin(), vis.end(), false);
         int scc = 0;
-
         while (!st.empty()) {
             int node = st.top();
             st.pop();
