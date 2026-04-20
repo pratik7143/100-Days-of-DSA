@@ -26,7 +26,6 @@ public:
         for (auto &e : edges) {
             adj[e[0]].push_back(e[1]);
         }
-
         // Step 2: DFS and push to stack
         vector<bool> vis(V, false);
         stack<int> st;
