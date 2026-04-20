@@ -9,7 +9,6 @@ public:
         }
         st.push(node);
     }
-
     void dfs2(int node, vector<vector<int>>& revAdj, vector<bool>& vis) {
         vis[node] = true;
         for (auto it : revAdj[node]) {
