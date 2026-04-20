@@ -21,7 +21,6 @@ public:
 
     int kosaraju(int V, vector<vector<int>> &edges) {
         vector<vector<int>> adj(V);
-
         // Step 1: Build graph
         for (auto &e : edges) {
             adj[e[0]].push_back(e[1]);
