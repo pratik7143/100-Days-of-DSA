@@ -34,7 +34,6 @@ public:
                 dfs(i, adj, vis, st);
             }
         }
-
         // Step 3: Reverse graph
         vector<vector<int>> revAdj(V);
         for (int i = 0; i < V; i++) {
