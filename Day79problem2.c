@@ -41,7 +41,6 @@ public:
                 revAdj[it].push_back(i);
             }
         }
-
         // Step 4: DFS on reversed graph
         fill(vis.begin(), vis.end(), false);
         int scc = 0;
