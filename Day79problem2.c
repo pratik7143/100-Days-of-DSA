@@ -53,7 +53,6 @@ public:
                 scc++;
             }
         }
-
         return scc;
     }
 };
