@@ -31,7 +31,6 @@ int findTheCity(int n, int** edges, int edgesSize, int* edgesColSize, int distan
             }
         }
     }
-    // Step 4: Find result
     int minReachable = INT_MAX;
     int resultCity = -1;
 
