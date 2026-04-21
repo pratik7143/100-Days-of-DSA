@@ -19,7 +19,6 @@ int findTheCity(int n, int** edges, int edgesSize, int* edgesColSize, int distan
         dist[u][v] = w;
         dist[v][u] = w;
     }
-
     // Step 3: Floyd-Warshall
     for (int k = 0; k < n; k++) {
         for (int i = 0; i < n; i++) {
