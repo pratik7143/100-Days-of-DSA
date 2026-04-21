@@ -11,7 +11,6 @@ int findTheCity(int n, int** edges, int edgesSize, int* edgesColSize, int distan
         }
     }
 
-    // Step 2: Fill edges
     for (int i = 0; i < edgesSize; i++) {
         int u = edges[i][0];
         int v = edges[i][1];
