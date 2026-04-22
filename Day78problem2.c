@@ -3,7 +3,6 @@ void dfs(int u, List** adj, int visited[], int disc[], int low[], int parent[], 
     disc[u] = low[u] = timer++;
     int children = 0;
     List* temp = adj[u];
-
     while (temp != NULL) {
         int v = temp->data;
 
