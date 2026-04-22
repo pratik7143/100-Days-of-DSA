@@ -18,7 +18,6 @@ void dfs(int u, List** adj, int visited[], int disc[], int low[], int parent[], 
         else if (v != parent[u]) {
             low[u] = (low[u] < disc[v]) ? low[u] : disc[v];
         }
-
         temp = temp->next;
     }
 }
