@@ -10,7 +10,6 @@ void dfs(int u, List** adj, int visited[], int disc[], int low[], int parent[], 
             parent[v] = u;
             dfs(v, adj, visited, disc, low, parent, ap);
             low[u] = (low[u] < low[v]) ? low[u] : low[v];
-
             if (parent[u] == -1 && children > 1)
                 ap[u] = 1;
             if (parent[u] != -1 && low[v] >= disc[u])
