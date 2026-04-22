@@ -5,7 +5,6 @@ void dfs(int u, List** adj, int visited[], int disc[], int low[], int parent[], 
     List* temp = adj[u];
     while (temp != NULL) {
         int v = temp->data;
-
         if (!visited[v]) {
             children++;
             parent[v] = u;
