@@ -11,7 +11,8 @@ void sortLogs(struct ArrivalLog logs[], int n)
     for (i = 0; i < n - 1; i++) {
         for (j = 0; j < n - i - 1; j++) 
         {
-            if (logs[j].time > logs[j + 1].time) {
+            if (logs[j].time > logs[j + 1].time) 
+            {
                 temp = logs[j];
                 logs[j] = logs[j + 1];
                 logs[j + 1] = temp;
