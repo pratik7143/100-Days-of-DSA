@@ -20,7 +20,8 @@ void sortLogs(struct ArrivalLog logs[], int n)
         }
     }
 }
-int main() {
+int main() 
+{
     int n, i;
     printf("Enter number of arrivals: ");
     scanf("%d", &n);
