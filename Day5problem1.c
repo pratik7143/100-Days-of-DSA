@@ -27,7 +27,8 @@ int main()
     scanf("%d", &n);
     struct ArrivalLog logs[n];
     printf("Enter name and arrival time:\n");
-    for (i = 0; i < n; i++) {
+    for (i = 0; i < n; i++) 
+    {
         printf("Person %d - Name: ", i + 1);
         scanf("%s", logs[i].name);
         printf("Arrival time: ");
