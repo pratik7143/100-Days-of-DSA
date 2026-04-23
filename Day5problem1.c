@@ -4,7 +4,8 @@ struct ArrivalLog {
     char name[50];
     int time;
 };
-void sortLogs(struct ArrivalLog logs[], int n) {
+void sortLogs(struct ArrivalLog logs[], int n) 
+{
     int i, j;
     struct ArrivalLog temp;
     for (i = 0; i < n - 1; i++) {
