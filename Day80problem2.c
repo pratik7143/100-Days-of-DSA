@@ -8,7 +8,8 @@ int findTheCity(int n, int** edges, int edgesSize, int* edgesColSize, int distan
             else dist[i][j] = INT_MAX;
         }
     }
-    for (int i = 0; i < edgesSize; i++) {
+    for (int i = 0; i < edgesSize; i++) 
+    {
         int u = edges[i][0];
         int v = edges[i][1];
         int w = edges[i][2];
