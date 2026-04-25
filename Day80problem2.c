@@ -1,5 +1,6 @@
 #include <limits.h>
-int findTheCity(int n, int** edges, int edgesSize, int* edgesColSize, int distanceThreshold) {
+int findTheCity(int n, int** edges, int edgesSize, int* edgesColSize, int distanceThreshold) 
+{
     int dist[101][101];
     // Step 1: Initialize distance matrix
     for (int i = 0; i < n; i++) {
