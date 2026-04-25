@@ -44,7 +44,8 @@ int findTheCity(int n, int** edges, int edgesSize, int* edgesColSize, int distan
             }
         }
         // Step 5: Apply condition (minimum count, if tie → max index)
-        if (count <= minReachable) {
+        if (count <= minReachable) 
+        {
             minReachable = count;
             resultCity = i;
         }
