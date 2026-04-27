@@ -3,7 +3,6 @@ int searchInsert(int* nums, int numsSize, int target) {
     
     while (low <= high) {
         int mid = (low + high) / 2;
-        
         if (nums[mid] == target)
             return mid;
         else if (nums[mid] < target)
