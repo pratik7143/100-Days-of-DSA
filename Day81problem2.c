@@ -10,7 +10,6 @@ int search(int* nums, int numsSize, int target) {
             else
                 low = mid + 1;
         }
-        // Right half sorted
         else {
             if (target > nums[mid] && target <= nums[high])
                 low = mid + 1;
