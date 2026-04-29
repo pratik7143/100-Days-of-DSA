@@ -32,7 +32,8 @@ void inorder(struct TreeNode* root) {
     printf("%d ", root->val);
     inorder(root->right);
 }
-void freeTree(struct TreeNode* root) {
+void freeTree(struct TreeNode* root) 
+{
     if (root == NULL) return;
     freeTree(root->left);
     freeTree(root->right);
