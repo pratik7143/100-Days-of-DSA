@@ -1,4 +1,4 @@
-int searchInsert(int* nums, int numsSize, int target)
+int searchInsert(int* nums, int numsSize,int target)
 {
     int low = 0, high = numsSize - 1;
     while (low <= high)
