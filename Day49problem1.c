@@ -46,7 +46,8 @@ int main() {
     int values[] = {5, 3, 7, 2, 4, 6, 8};
     int n = sizeof(values) / sizeof(values[0]);
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) 
+    {
         root = insertIntoBST(root, values[i]);
     }
 
