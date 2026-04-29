@@ -38,7 +38,6 @@ void freeTree(struct TreeNode* root)
     freeTree(root->right);
     free(root);
 }
-
 int main() {
     struct TreeNode* root = NULL;
 
