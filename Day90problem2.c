@@ -16,7 +16,6 @@ int canSplit(int* nums, int numsSize, int k, int maxSum) {
 
     return count <= k;
 }
-
 int splitArray(int* nums, int numsSize, int k) {
     int left = INT_MIN, right = 0;
 
