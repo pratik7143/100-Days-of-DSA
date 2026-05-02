@@ -32,6 +32,5 @@ int splitArray(int* nums, int numsSize, int k) {
             left = mid + 1;   // need larger
         }
     }
-
     return ans;
 }
