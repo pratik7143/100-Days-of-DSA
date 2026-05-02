@@ -1,5 +1,4 @@
 #include <limits.h>
-
 // Helper function to check if we can split into <= k subarrays
 int canSplit(int* nums, int numsSize, int k, int maxSum) {
     int count = 1;  // at least one subarray
