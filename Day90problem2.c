@@ -18,7 +18,6 @@ int canSplit(int* nums, int numsSize, int k, int maxSum) {
 }
 int splitArray(int* nums, int numsSize, int k) {
     int left = INT_MIN, right = 0;
-
     // find max element and total sum
     for (int i = 0; i < numsSize; i++) {
         if (nums[i] > left) left = nums[i];
