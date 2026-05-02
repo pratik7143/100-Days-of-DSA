@@ -4,7 +4,6 @@
 int canSplit(int* nums, int numsSize, int k, int maxSum) {
     int count = 1;  // at least one subarray
     int currentSum = 0;
-
     for (int i = 0; i < numsSize; i++) {
         if (currentSum + nums[i] <= maxSum) {
             currentSum += nums[i];
