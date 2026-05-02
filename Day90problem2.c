@@ -13,7 +13,6 @@ int canSplit(int* nums, int numsSize, int k, int maxSum) {
             currentSum = nums[i];
         }
     }
-
     return count <= k;
 }
 int splitArray(int* nums, int numsSize, int k) {
