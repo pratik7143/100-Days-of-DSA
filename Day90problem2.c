@@ -24,7 +24,7 @@ int splitArray(int* nums, int numsSize, int k) {
         int mid = left + (right - left) / 2;
         if (canSplit(nums, numsSize, k, mid)) {
             ans = mid;
-            right = mid - 1;  // try smaller
+            right = mid - 1; 
         } else {
             left = mid + 1;   
         }
