@@ -22,7 +22,6 @@ int splitArray(int* nums, int numsSize, int k) {
         right += nums[i];
     }
     int ans = right;
-
     while (left <= right) {
         int mid = left + (right - left) / 2;
 
