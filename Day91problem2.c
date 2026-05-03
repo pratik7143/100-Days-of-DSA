@@ -10,7 +10,6 @@ void sortColors(int nums[], int n) {
             temp = nums[low];
             nums[low] = nums[mid];
             nums[mid] = temp;
-
             low++;
             mid++;
         }
