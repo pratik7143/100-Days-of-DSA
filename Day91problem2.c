@@ -23,7 +23,6 @@ void sortColors(int nums[], int n) {
         }
     }
 }
-
 int main() {
     int nums[] = {2, 0, 2, 1, 1, 0};
     int n = sizeof(nums) / sizeof(nums[0]);
