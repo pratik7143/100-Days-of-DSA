@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 void sortColors(int nums[], int n) {
     int low = 0, mid = 0, high = n - 1;
     int temp;
