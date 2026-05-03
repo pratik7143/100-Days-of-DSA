@@ -5,7 +5,6 @@ void sortColors(int nums[], int n) {
     int temp;
     while (mid <= high) {
         if (nums[mid] == 0) {
-            // swap nums[low] and nums[mid]
             temp = nums[low];
             nums[low] = nums[mid];
             nums[mid] = temp;
