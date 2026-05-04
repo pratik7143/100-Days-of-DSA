@@ -25,7 +25,6 @@ void insert(int heap[], int *size, int val, int k) {
     (*size)++;
 
     int i = *size - 1;
-
     // Fix min heap
     while (i != 0 && heap[(i-1)/2] > heap[i]) {
         int temp = heap[i];
