@@ -16,7 +16,6 @@ void heapify(int heap[], int size, int i) {
         int temp = heap[i];
         heap[i] = heap[smallest];
         heap[smallest] = temp;
-
         heapify(heap, size, smallest);
     }
 }
