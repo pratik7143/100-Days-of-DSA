@@ -30,7 +30,6 @@ void insert(int heap[], int *size, int val, int k) {
         heap[(i-1)/2] = temp;
         i = (i-1)/2;
     }
-
     // If size > k, remove smallest
     if (*size > k) {
         heap[0] = heap[*size - 1];
