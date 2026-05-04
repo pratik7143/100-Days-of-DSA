@@ -21,7 +21,6 @@ void heapify(int heap[], int size, int i) {
         heapify(heap, size, smallest);
     }
 }
-
 // Insert into heap
 void insert(int heap[], int *size, int val, int k) {
     heap[*size] = val;
