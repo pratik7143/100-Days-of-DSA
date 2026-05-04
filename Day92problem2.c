@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 // Heapify function
 void heapify(int heap[], int size, int i) {
     int smallest = i;
