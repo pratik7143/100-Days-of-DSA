@@ -5,7 +5,6 @@ void heapify(int heap[], int size, int i) {
     int smallest = i;
     int left = 2*i + 1;
     int right = 2*i + 2;
-
     if (left < size && heap[left] < heap[smallest])
         smallest = left;
 
