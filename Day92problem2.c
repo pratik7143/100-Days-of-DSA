@@ -22,7 +22,6 @@ void heapify(int heap[], int size, int i) {
 void insert(int heap[], int *size, int val, int k) {
     heap[*size] = val;
     (*size)++;
-
     int i = *size - 1;
     // Fix min heap
     while (i != 0 && heap[(i-1)/2] > heap[i]) {
