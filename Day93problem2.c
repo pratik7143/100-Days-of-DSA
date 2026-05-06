@@ -15,7 +15,6 @@ struct ListNode* insertionSortList(struct ListNode* head) {
         struct ListNode *nextNode = curr->next;
         // Find correct position
         struct ListNode *prev = &dummy;
-
         while(prev->next != NULL && prev->next->val < curr->val) {
             prev = prev->next;
         }
