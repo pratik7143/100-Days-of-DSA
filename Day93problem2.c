@@ -11,7 +11,6 @@ struct ListNode* insertionSortList(struct ListNode* head) {
     struct ListNode dummy;
     dummy.next = NULL;
     struct ListNode *curr = head;
-
     while(curr != NULL) {
         
         struct ListNode *nextNode = curr->next;
