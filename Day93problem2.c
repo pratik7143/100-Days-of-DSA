@@ -6,7 +6,6 @@
  * };
  */
 struct ListNode* insertionSortList(struct ListNode* head) {
-    
     if(head == NULL || head->next == NULL)
         return head;
 
