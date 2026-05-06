@@ -10,7 +10,6 @@ struct ListNode* insertionSortList(struct ListNode* head) {
         return head;
     struct ListNode dummy;
     dummy.next = NULL;
-
     struct ListNode *curr = head;
 
     while(curr != NULL) {
