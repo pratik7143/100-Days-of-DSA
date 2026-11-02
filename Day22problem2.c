@@ -6,7 +6,7 @@ struct ListNode* reverseList(struct ListNode* head){
         nextNode = current->next;   
         current->next = prev;      
         prev = current;             
-        current = nextNode;         
+        current = nextNode;
     }
     return prev; 
 }
