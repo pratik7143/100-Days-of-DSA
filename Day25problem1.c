@@ -4,7 +4,8 @@ struct ListNode {
     int val;
     struct ListNode *next;
 };
-struct ListNode* createNode(int x) {
+struct ListNode* createNode(int x) 
+{
     struct ListNode* temp = (struct ListNode*)malloc(sizeof(struct ListNode));
     temp->val = x;
     temp->next = NULL;
