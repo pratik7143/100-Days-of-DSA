@@ -18,6 +18,7 @@ int main()
             }
         }
     }
+    
     if(symmetric)
         printf("Matrix is Symmetric");
     else
