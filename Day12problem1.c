@@ -22,6 +22,7 @@ int main()
     if(symmetric)
         printf("Matrix is Symmetric");
     else
+        
         printf("Matrix is Not Symmetric");
     return 0;
 }
