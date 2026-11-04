@@ -34,7 +34,6 @@ int main() {
         printf("Do you want to continue (0/1)? ");
         scanf("%d", &choice);
     }
-
     printf("\nTotal number of nodes = %d\n", countNodes(head));
 
     return 0;
