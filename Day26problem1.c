@@ -38,7 +38,8 @@ void traverse()
         t = t->next;
     }
 }
-int main() {
+int main() 
+{
     insertBeg(10);
     insertBeg(20);
     insertEnd(30);
