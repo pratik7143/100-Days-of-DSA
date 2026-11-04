@@ -13,7 +13,8 @@ void insertBeg(int x) {
     if(head) head->prev = n;
     head = n;
 }
-void insertEnd(int x) {
+void insertEnd(int x) 
+{
     struct Node* n = malloc(sizeof(struct Node));
     n->data = x;
     n->next = NULL;
