@@ -4,7 +4,6 @@ struct node {
     int data;
     struct node *next;
 };
-
 int countNodes(struct node *head) {
     int count = 0;
     struct node *temp = head;
