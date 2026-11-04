@@ -30,7 +30,6 @@ int main() {
             temp->next = newnode;
             temp = newnode;
         }
-
         printf("Do you want to continue (0/1)? ");
         scanf("%d", &choice);
     }
