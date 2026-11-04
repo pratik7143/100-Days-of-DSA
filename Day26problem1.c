@@ -4,8 +4,7 @@ struct Node {
     int data;
     struct Node *prev, *next;
 };
-struct Node* head = NULL;
-
+struct Node* head = NULL;
 void insertBeg(int x) {
     struct Node* n = malloc(sizeof(struct Node));
     n->data = x;
