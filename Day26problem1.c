@@ -16,8 +16,7 @@ void insertBeg(int x) {
 void insertEnd(int x) {
     struct Node* n = malloc(sizeof(struct Node));
     n->data = x;
-    n->next = NULL;
-
+    n->next = NULL;
     if(head == NULL) {
         n->prev = NULL;
         head = n;
