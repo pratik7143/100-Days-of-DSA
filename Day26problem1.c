@@ -33,8 +33,7 @@ void traverse() {
         printf("%d ", t->data);
         t = t->next;
     }
-}
-
+}
 int main() {
     insertBeg(10);
     insertBeg(20);
