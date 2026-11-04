@@ -23,7 +23,6 @@ int main() {
         printf("Enter data: ");
         scanf("%d", &newnode->data);
         newnode->next = NULL;
-
         if (head == NULL) {
             head = temp = newnode;
         } else {
