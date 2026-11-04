@@ -37,7 +37,6 @@ void traverse() {
 int main() {
     insertBeg(10);
     insertBeg(20);
-    insertEnd(30);
-
+    insertEnd(30);
     traverse(); // Output: 20 10 30
 }
