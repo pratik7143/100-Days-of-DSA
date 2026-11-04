@@ -26,8 +26,7 @@ void insertEnd(int x) {
     while(t->next) t = t->next;
     t->next = n;
     n->prev = t;
-}
-
+}
 void traverse() {
     struct Node* t = head;
     while(t) {
