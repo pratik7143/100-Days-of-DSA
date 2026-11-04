@@ -3,8 +3,7 @@
 struct Node {
     int data;
     struct Node *prev, *next;
-};
-
+};
 struct Node* head = NULL;
 
 void insertBeg(int x) {
