@@ -17,7 +17,6 @@ int countNodes(struct node *head) {
 int main() {
     struct node *head = NULL, *newnode, *temp;
     int choice = 1;
-
     // Creating linked list
     while (choice) {
         newnode = (struct node*)malloc(sizeof(struct node));
