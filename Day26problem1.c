@@ -29,7 +29,8 @@ void insertEnd(int x)
     t->next = n;
     n->prev = t;
 }
-void traverse() {
+void traverse() 
+{
     struct Node* t = head;
     while(t) {
         printf("%d ", t->data);
