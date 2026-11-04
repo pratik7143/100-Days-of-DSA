@@ -14,7 +14,6 @@ int countNodes(struct node *head) {
     }
     return count;
 }
-
 int main() {
     struct node *head = NULL, *newnode, *temp;
     int choice = 1;
